@@ -1,0 +1,30 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+<BaseLayout title="GRHS Nordic — Home">
+  <section class="hero" slot="hero">
+    <div class="wrap">
+      <h1>GRHS Nordic Ski Team</h1>
+      <p>Calendar • Registration • Workouts • Announcements</p>
+      <p style="margin-top:1rem;">
+        <a class="button" href="/registration">Register Now</a>
+        <a class="button" style="margin-left:.5rem;background:#374151" href="/calendar">View Calendar</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="card">
+    <h2>Welcome</h2>
+    <p>Welcome to the Grand Rapids Nordic Ski Team site. Find our latest announcements, practice plans, and race calendar here. Content is written in Markdown so coaches can edit quickly and publish with one push.</p>
+  </section>
+
+  <section class="card">
+    <h2>Quick Links</h2>
+    <ul>
+      <li><a href="/announcements">Team Announcements</a></li>
+      <li><a href="/workouts">Workout Plans</a></li>
+      <li><a href="/calendar">Season Calendar</a></li>
+      <li><a href="/registration">Registration</a></li>
+    </ul>
+  </section>
+</BaseLayout>

@@ -1,0 +1,16 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from 'astro:content';
+const posts = await getCollection('workouts');
+const param = Astro.params.slug.join('/');
+const entry = posts.find(p => p.slug === param);
+if (!entry) throw new Error('Workout not found: ' + param);
+const { Content } = await entry.render();
+---
+<BaseLayout title={`Workout — ${entry.data.title}`}>
+  <article class="card">
+    <h2>{entry.data.title}</h2>
+    <p style="color:#6b7280">{entry.data.date.toDateString()}</p>
+    <Content />
+  </article>
+</BaseLayout>

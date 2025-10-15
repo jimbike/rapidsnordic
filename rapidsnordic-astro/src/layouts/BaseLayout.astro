@@ -1,0 +1,35 @@
+---
+const { title = 'GRHS Nordic Ski Team', description = 'Grand Rapids Nordic — calendar, workouts, registration, announcements' } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <link rel="stylesheet" href="/src/styles/global.css" />
+  </head>
+  <body>
+    <header>
+      <div class="wrap" style="display:flex;align-items:center;gap:.75rem;">
+        <img src="/images/logo.svg" alt="GRHS Nordic" width="32" height="32" />
+        <strong style="font-size:1.1rem;">GRHS Nordic Ski Team</strong>
+        <nav style="margin-left:auto;">
+          <a href="/">Home</a>
+          <a href="/calendar">Calendar</a>
+          <a href="/announcements">Announcements</a>
+          <a href="/workouts">Workouts</a>
+          <a href="/registration">Registration</a>
+        </nav>
+      </div>
+    </header>
+    <slot name="hero" />
+    <main class="wrap">
+      <slot />
+    </main>
+    <footer>
+      <p>© {new Date().getFullYear()} GRHS Nordic — Go Thunderhawks 🧡🖤</p>
+    </footer>
+  </body>
+</html>

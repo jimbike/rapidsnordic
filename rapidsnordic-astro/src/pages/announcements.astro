@@ -1,0 +1,19 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from 'astro:content';
+const posts = await getCollection('announcements', ({ data }) => !data.draft);
+posts.sort((a,b)=> b.data.date.getTime() - a.data.date.getTime());
+---
+<BaseLayout title="GRHS Nordic — Announcements">
+  <section class="card">
+    <h2>Announcements</h2>
+    <ul>
+      {posts.map(post => (
+        <li>
+          <a href={`/announcements/${post.slug}/`}>{post.data.title}</a>
+          <span style="color:#6b7280"> — {post.data.date.toDateString()}</span>
+        </li>
+      ))}
+    </ul>
+  </section>
+</BaseLayout>
