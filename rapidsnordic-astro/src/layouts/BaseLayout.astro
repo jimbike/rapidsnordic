@@ -1,5 +1,5 @@
 ---
-const { title = 'GRHS Nordic Ski Team', description = 'Grand Rapids Nordic — calendar, workouts, registration, announcements' } = Astro.props;
+const { title = 'Rapids Nordic Ski Team', description = 'Rapids Nordic — Elite Nordic Ski Training & Competition | Calendar, Workouts, Registration' } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -9,18 +9,21 @@ const { title = 'GRHS Nordic Ski Team', description = 'Grand Rapids Nordic — c
     <meta name="description" content={description} />
     <title>{title}</title>
     <link rel="stylesheet" href="/src/styles/global.css" />
+    <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
   </head>
   <body>
     <header>
-      <div class="wrap" style="display:flex;align-items:center;gap:.75rem;">
-        <img src="/images/logo.svg" alt="GRHS Nordic" width="32" height="32" />
-        <strong style="font-size:1.1rem;">GRHS Nordic Ski Team</strong>
-        <nav style="margin-left:auto;">
+      <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;">
+        <div style="display:flex;align-items:center;gap:1rem;">
+          <img src="/images/logo.svg" alt="Rapids Nordic" width="40" height="40" style="filter:brightness(0) invert(1);" />
+          <h1>RAPIDS NORDIC</h1>
+        </div>
+        <nav>
           <a href="/">Home</a>
           <a href="/calendar">Calendar</a>
-          <a href="/announcements">Announcements</a>
-          <a href="/workouts">Workouts</a>
-          <a href="/registration">Registration</a>
+          <a href="/announcements">News</a>
+          <a href="/workouts">Training</a>
+          <a href="/registration">Join</a>
         </nav>
       </div>
     </header>
@@ -29,7 +32,9 @@ const { title = 'GRHS Nordic Ski Team', description = 'Grand Rapids Nordic — c
       <slot />
     </main>
     <footer>
-      <p>© {new Date().getFullYear()} GRHS Nordic — Go Thunderhawks 🧡🖤</p>
+      <p><strong>RAPIDS NORDIC SKI TEAM</strong></p>
+      <p>© {new Date().getFullYear()} Rapids Nordic • Excellence in Nordic Skiing</p>
+      <p style="margin-top:1rem;font-size:0.9rem;opacity:0.7;">Grand Rapids, Minnesota</p>
     </footer>
   </body>
 </html>
