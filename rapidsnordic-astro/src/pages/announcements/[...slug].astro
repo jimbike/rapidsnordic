@@ -1,6 +1,14 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('announcements');
+  return posts.map(post => ({
+    params: { slug: post.slug.split('/') }
+  }));
+}
+
 const posts = await getCollection('announcements');
 const param = Astro.params.slug.join('/');
 const entry = posts.find(p => p.slug === param);
