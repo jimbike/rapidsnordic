@@ -3,19 +3,19 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from 'astro:content';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('workouts');
+  const posts = await getCollection('announcements');
   return posts.map(post => ({
-    params: { slug: post.slug.split('/') }
+    params: { slug: post.slug }
   }));
 }
 
-const posts = await getCollection('workouts');
-const param = Astro.params.slug.join('/');
+const posts = await getCollection('announcements');
+const param = Astro.params.slug;
 const entry = posts.find(p => p.slug === param);
-if (!entry) throw new Error('Workout not found: ' + param);
+if (!entry) throw new Error('Announcement not found: ' + param);
 const { Content } = await entry.render();
 ---
-<BaseLayout title={`Workout — ${entry.data.title}`}>
+<BaseLayout title={`Announcement — ${entry.data.title}`}>
   <article class="card">
     <h2>{entry.data.title}</h2>
     <p style="color:#6b7280">{entry.data.date.toDateString()}</p>
