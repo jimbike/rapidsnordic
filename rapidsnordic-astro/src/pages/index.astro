@@ -1,57 +1,43 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 ---
-<BaseLayout title="Rapids Nordic — Elite Nordic Ski Team">
+<BaseLayout title="Rapids Nordic - Home">
   <section class="hero" slot="hero">
-    <div class="wrap" style="position:relative;z-index:1;">
-      <img src="/images/Pasted image 20251015165548.png" alt="Nordic Skier" style="position:absolute;right:0;top:50%;transform:translateY(-50%);height:300px;width:auto;opacity:0.15;z-index:-1;" />
-      <h1>RAPIDS NORDIC</h1>
-      <p style="font-size:1.5rem;margin-bottom:2rem;font-weight:400;">EXCELLENCE • ENDURANCE • TEAM</p>
-      <p>Elite Nordic Ski Training & Competition</p>
-      <p style="margin-top:2rem;">
-        <a class="button" href="/registration">JOIN THE TEAM</a>
-        <a class="button secondary" style="margin-left:1rem;" href="/calendar">SEASON SCHEDULE</a>
-      </p>
+    <div class="wrap">
+      <h1>Welcome to Rapids Nordic</h1>
+      <p class="tagline">Excellence in Nordic Skiing</p>
+      <p>Join Grand Rapids' premier cross-country ski team for training, competition, and camaraderie.</p>
+      <div>
+        <a class="button" href="/registration">Join the Team</a>
+        <a class="button secondary" href="/calendar">View Schedule</a>
+      </div>
     </div>
   </section>
 
-  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem;">
+  <div class="grid">
     <section class="card">
-      <h2>Welcome Athletes</h2>
-      <p><strong>Build strength. Push limits. Achieve excellence.</strong></p>
-      <p>Rapids Nordic develops elite cross-country skiers through professional coaching, structured training programs, and a supportive team environment. Whether you're new to the sport or competing at the highest levels, we'll help you reach your potential.</p>
-      <a href="/registration" style="display:inline-block;margin-top:1rem;font-weight:600;text-transform:uppercase;">Start Your Journey →</a>
+      <h2>About Our Team</h2>
+      <p>Rapids Nordic develops cross-country skiers of all levels through structured training, expert coaching, and a supportive team environment.</p>
+      <p>We compete in the full MSHSL race schedule and offer year-round training programs to build endurance, technique, and speed.</p>
+      <a href="/registration">Learn more about joining →</a>
     </section>
 
     <section class="card">
-      <h2>Season Highlights</h2>
-      <ul style="margin:0;">
-        <li><strong>Training:</strong> Year-round conditioning program</li>
-        <li><strong>Competition:</strong> Full MSHSL race schedule</li>
-        <li><strong>Coaching:</strong> USSA certified instructors</li>
-        <li><strong>Equipment:</strong> Team pricing & fitting sessions</li>
+      <h2>Quick Links</h2>
+      <ul>
+        <li><a href="/calendar">Practice & Race Calendar</a></li>
+        <li><a href="/workouts">Training Plans</a></li>
+        <li><a href="/announcements">Team News & Updates</a></li>
+        <li><a href="/registration">Registration Info</a></li>
       </ul>
-      <a href="/announcements" style="display:inline-block;margin-top:1rem;font-weight:600;text-transform:uppercase;">Latest News →</a>
     </section>
 
     <section class="card">
-      <h2>Training Resources</h2>
-      <ul style="margin:0;">
-        <li><a href="/workouts" style="font-weight:600;">Structured Workout Plans</a></li>
-        <li><a href="/calendar" style="font-weight:600;">Practice & Race Schedule</a></li>
-        <li><a href="/announcements" style="font-weight:600;">Team Updates & News</a></li>
-        <li><a href="/registration" style="font-weight:600;">Registration & Forms</a></li>
-      </ul>
+      <h2>Season Info</h2>
+      <p><strong>Winter Season:</strong> November - March</p>
+      <p><strong>Training Location:</strong> Grand Rapids, MN</p>
+      <p><strong>Practice Times:</strong> See calendar for details</p>
+      <p><strong>Equipment:</strong> Team pricing available</p>
     </section>
   </div>
-
-  <section class="card" style="background:linear-gradient(135deg, var(--black) 0%, var(--dark-gray) 100%);color:var(--light);border-left-color:var(--brand);margin-top:3rem;">
-    <h2 style="color:var(--light);border-bottom-color:var(--brand);">Ready to Race?</h2>
-    <p style="font-size:1.1rem;">Join Rapids Nordic and become part of Minnesota's proud Nordic skiing tradition. Our comprehensive program develops technical skills, builds physical fitness, and fosters lifelong passion for the sport.</p>
-    <div style="margin-top:2rem;display:flex;gap:1rem;flex-wrap:wrap;">
-      <a class="button" href="/registration">REGISTER NOW</a>
-      <a class="button secondary" href="/calendar" style="border-color:var(--brand);">VIEW SCHEDULE</a>
-      <a class="button secondary" href="/announcements" style="border-color:var(--brand);">TEAM NEWS</a>
-    </div>
-  </section>
 </BaseLayout>

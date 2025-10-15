@@ -2,53 +2,47 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 const registrationUrl = "https://students.arbitersports.com/programs/grand-rapids-high-school-robert-j-elkington-middle-school-athletic-registration-2025-2026";
 ---
-<BaseLayout title="Rapids Nordic — Team Registration">
-  <section class="card" style="text-align:center;">
-    <h2>Join Rapids Nordic 2025-2026</h2>
-    <p style="font-size:1.2rem;margin:1.5rem 0;"><strong>Ready to join the fastest team on snow?</strong></p>
-    <p>Complete your GRHS athletics registration for Nordic skiing:</p>
+<BaseLayout title="Rapids Nordic - Registration">
+  <section class="card text-center">
+    <h2>2025-2026 Team Registration</h2>
+    <p>Ready to join Rapids Nordic? Complete your registration through the GRHS athletics portal.</p>
     
-    <div style="margin:2rem auto;">
-      <a class="button" href={registrationUrl} target="_blank" rel="noopener" style="font-size:1.1rem;padding:1rem 2.5rem;">
-        REGISTER NOW →
+    <div class="mt-2 mb-2">
+      <a class="button" href={registrationUrl} target="_blank" rel="noopener">
+        Register Online
       </a>
     </div>
     
-    <div style="margin:2rem auto;padding:2rem;background:var(--muted);border-radius:8px;display:inline-block;">
-      <p style="margin-bottom:1rem;font-weight:600;">Or scan with your phone:</p>
-      <img src="/qr/registration.png" alt="Registration QR code" width="250" height="250" style="margin:0 auto;"/>
-    </div>
-    
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:2rem 0;text-align:left;">
-      <div style="padding:1rem;background:var(--muted);border-radius:4px;">
-        <h3 style="margin-top:0;font-size:1rem;color:var(--brand);">SEASON INCLUDES</h3>
-        <ul style="list-style:none;padding:0;margin:0;">
-          <li>✓ Professional coaching</li>
-          <li>✓ Race entries</li>
-          <li>✓ Team uniform</li>
-        </ul>
-      </div>
-      <div style="padding:1rem;background:var(--muted);border-radius:4px;">
-        <h3 style="margin-top:0;font-size:1rem;color:var(--brand);">TRAINING</h3>
-        <ul style="list-style:none;padding:0;margin:0;">
-          <li>✓ Year-round program</li>
-          <li>✓ Technique coaching</li>
-          <li>✓ Strength conditioning</li>
-        </ul>
-      </div>
-      <div style="padding:1rem;background:var(--muted);border-radius:4px;">
-        <h3 style="margin-top:0;font-size:1rem;color:var(--brand);">SUPPORT</h3>
-        <ul style="list-style:none;padding:0;margin:0;">
-          <li>✓ Wax service</li>
-          <li>✓ Equipment guidance</li>
-          <li>✓ Team discounts</li>
-        </ul>
-      </div>
-    </div>
-    
-    <div style="margin-top:2rem;padding:1.5rem;background:linear-gradient(135deg, var(--black) 0%, var(--dark-gray) 100%);color:var(--light);border-radius:8px;">
-      <p style="margin:0;font-size:1.1rem;">Questions about registration?</p>
-      <p style="margin:0.5rem 0 0 0;">Contact us at <a href="mailto:coach@rapidsnordic.com" style="color:var(--brand);font-weight:600;">coach@rapidsnordic.com</a></p>
-    </div>
+    <p>Or scan this QR code with your phone:</p>
+    <img src="/qr/registration.png" alt="Registration QR code" width="200" height="200" style="margin: 1rem auto;"/>
   </section>
+
+  <div class="grid">
+    <section class="card">
+      <h3>What's Included</h3>
+      <ul>
+        <li>Professional coaching</li>
+        <li>Race entry fees</li>
+        <li>Team uniform</li>
+        <li>Wax service at races</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>Training Program</h3>
+      <ul>
+        <li>Year-round conditioning</li>
+        <li>Technique development</li>
+        <li>Strength training</li>
+        <li>Race preparation</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h3>Contact Info</h3>
+      <p><strong>Questions?</strong></p>
+      <p>Email: <a href="mailto:coach@rapidsnordic.com">coach@rapidsnordic.com</a></p>
+      <p>Registration help available at practice</p>
+    </section>
+  </div>
 </BaseLayout>

@@ -1,5 +1,5 @@
 ---
-const { title = 'Rapids Nordic Ski Team', description = 'Rapids Nordic — Elite Nordic Ski Training & Competition | Calendar, Workouts, Registration' } = Astro.props;
+const { title = 'Rapids Nordic', description = 'Rapids Nordic Ski Team - Training, Competition, Excellence' } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -13,11 +13,8 @@ const { title = 'Rapids Nordic Ski Team', description = 'Rapids Nordic — Elite
   </head>
   <body>
     <header>
-      <div class="wrap" style="display:flex;align-items:center;justify-content:space-between;">
-        <div style="display:flex;align-items:center;gap:1rem;">
-          <img src="/images/logo.svg" alt="Rapids Nordic" width="40" height="40" style="filter:brightness(0) invert(1);" />
-          <h1>RAPIDS NORDIC</h1>
-        </div>
+      <div class="wrap">
+        <h1>RAPIDS NORDIC</h1>
         <nav>
           <a href="/">Home</a>
           <a href="/calendar">Calendar</a>
@@ -32,9 +29,8 @@ const { title = 'Rapids Nordic Ski Team', description = 'Rapids Nordic — Elite
       <slot />
     </main>
     <footer>
-      <p><strong>RAPIDS NORDIC SKI TEAM</strong></p>
-      <p>© {new Date().getFullYear()} Rapids Nordic • Excellence in Nordic Skiing</p>
-      <p style="margin-top:1rem;font-size:0.9rem;opacity:0.7;">Grand Rapids, Minnesota</p>
+      <p><strong>Rapids Nordic Ski Team</strong></p>
+      <p>© {new Date().getFullYear()} • Grand Rapids, Minnesota</p>
     </footer>
   </body>
 </html>
