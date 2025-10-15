@@ -1,5 +1,5 @@
 ---
-const { title = 'Rapids Nordic', description = 'Rapids Nordic Ski Team - Training, Competition, Excellence' } = Astro.props;
+const { title = 'Rapids Nordic', description = 'Rapids Nordic Ski Team - Training, Competition, Excellence', bodyClass = '' } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +11,7 @@ const { title = 'Rapids Nordic', description = 'Rapids Nordic Ski Team - Trainin
     <link rel="stylesheet" href="/src/styles/global.css" />
     <link rel="icon" type="image/svg+xml" href="/images/logo.svg" />
   </head>
-  <body>
+  <body class={bodyClass}>
     <header>
       <div class="wrap">
         <h1>RAPIDS NORDIC</h1>

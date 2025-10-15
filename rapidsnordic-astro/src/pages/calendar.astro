@@ -3,19 +3,19 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 const calendarId = '48124f8e53a625130ed9384d59688ac503bd1c4c167bd4f21b114c238955c75b@group.calendar.google.com';
 const icalLink = `https://calendar.google.com/calendar/ical/${calendarId}/public/basic.ics`;
 ---
-<BaseLayout title="GRHS Nordic — Calendar">
-  <section class="card">
-    <h2>Team Calendar</h2>
-    <p>View all practices, races, and team events below.</p>
-    
-    <div class="calendar-container">
-      <iframe 
-        src="https://calendar.google.com/calendar/embed?src=48124f8e53a625130ed9384d59688ac503bd1c4c167bd4f21b114c238955c75b%40group.calendar.google.com&ctz=America%2FChicago" 
-        frameborder="0" 
-        scrolling="no">
-      </iframe>
-    </div>
-  </section>
+<BaseLayout title="Rapids Nordic — Calendar" bodyClass="calendar-page">
+  <div style="padding: 0 1rem;">
+    <h2 style="margin-bottom: 0.5rem;">Team Calendar</h2>
+    <p style="margin-bottom: 1rem;">View all practices, races, and team events below.</p>
+  </div>
+  
+  <div class="calendar-container">
+    <iframe 
+      src="https://calendar.google.com/calendar/embed?src=48124f8e53a625130ed9384d59688ac503bd1c4c167bd4f21b114c238955c75b%40group.calendar.google.com&ctz=America%2FChicago&mode=MONTH" 
+      frameborder="0" 
+      scrolling="no">
+    </iframe>
+  </div>
 
   <section class="card">
     <h2>Add to Your Calendar</h2>
