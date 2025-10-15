@@ -1,13 +1,46 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-const calendarId = 'your-google-calendar-id@group.calendar.google.com';
+const calendarId = '48124f8e53a625130ed9384d59688ac503bd1c4c167bd4f21b114c238955c75b@group.calendar.google.com';
+const icalLink = `https://calendar.google.com/calendar/ical/${calendarId}/public/basic.ics`;
 ---
 <BaseLayout title="GRHS Nordic — Calendar">
   <section class="card">
     <h2>Team Calendar</h2>
-    <p>Below is the embedded Google Calendar. Replace the <code>calendarId</code> in <code>src/pages/calendar.astro</code> with your team calendar ID, or paste your full Google embed URL.</p>
+    <p>View all practices, races, and team events below. You can also add this calendar to your own device to stay updated.</p>
+    
     <div style="aspect-ratio: 16 / 10; max-width: 100%;">
       <iframe src="https://calendar.google.com/calendar/embed?src=48124f8e53a625130ed9384d59688ac503bd1c4c167bd4f21b114c238955c75b%40group.calendar.google.com&ctz=America%2FChicago" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
     </div>
+  </section>
+
+  <section class="card">
+    <h2>Add to Your Calendar</h2>
+    <p>Subscribe to the team calendar to receive automatic updates on your device:</p>
+    
+    <h3>Google Calendar</h3>
+    <ol>
+      <li>Click this link: <a href="https://calendar.google.com/calendar/u/0?cid=NDgxMjRmOGU1M2E2MjUxMzBlZDkzODRkNTk2ODhhYzUwM2JkMWM0YzE2N2JkNGYyMWIxMTRjMjM4OTU1Yzc1YkBncm91cC5jYWxlbmRhci5nb29nbGUuY29t" target="_blank">Add to Google Calendar</a></li>
+      <li>Sign in to your Google account if prompted</li>
+      <li>Click "Add" to subscribe to the calendar</li>
+    </ol>
+
+    <h3>Apple Calendar (iPhone/iPad/Mac)</h3>
+    <ol>
+      <li>Open Settings → Calendar → Accounts</li>
+      <li>Tap "Add Account" → "Other" → "Add Subscribed Calendar"</li>
+      <li>Paste this URL: <code style="word-break: break-all;">{icalLink}</code></li>
+      <li>Tap "Next" and then "Save"</li>
+    </ol>
+
+    <h3>Outlook/Other Calendar Apps</h3>
+    <ol>
+      <li>Copy this iCal URL: <code style="word-break: break-all;">{icalLink}</code></li>
+      <li>In your calendar app, look for "Subscribe to calendar" or "Add calendar from URL"</li>
+      <li>Paste the URL and follow the prompts</li>
+    </ol>
+
+    <p style="margin-top: 1rem; padding: 1rem; background: #f3f4f6; border-radius: 0.5rem;">
+      <strong>Note:</strong> Subscribed calendars update automatically when changes are made. You won't be able to edit events directly - only coaches can modify the team calendar.
+    </p>
   </section>
 </BaseLayout>
