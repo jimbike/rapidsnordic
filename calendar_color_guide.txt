@@ -1,0 +1,21 @@
+
+    
+COLOR CODING GUIDE FOR GOOGLE CALENDAR:
+=========================================
+After importing, set colors for events containing these keywords:
+
+1. RACE (Red) - Competition days
+2. WAX (Green) - Waxing sessions  
+3. Dryland (Orange) - Dryland training
+4. Technique (Light Blue) - Technique focus days
+5. On-Snow (Blue) - Regular snow training
+6. Taper (Yellow) - Taper phase training
+7. Optional (Gray) - Optional/holiday practices
+8. Meeting (Purple) - Team meetings
+
+To set colors in Google Calendar:
+1. After import, click on an event
+2. Click the color palette icon
+3. Choose the appropriate color
+4. Optional: Click "Save for all events in series" if recurring
+    
