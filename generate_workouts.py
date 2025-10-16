@@ -52,9 +52,19 @@ def parse_csv(file_path):
                 events.append(row)
     return events
 
+def parse_date(date_str):
+    """Parse date from various formats"""
+    # Try different date formats
+    for fmt in ["%Y-%m-%d", "%m/%d/%y", "%m/%d/%Y", "%Y/%m/%d"]:
+        try:
+            return datetime.strptime(date_str, fmt)
+        except ValueError:
+            continue
+    raise ValueError(f"Unable to parse date: {date_str}")
+
 def determine_phase(date_str):
     """Determine training phase based on date"""
-    date = datetime.strptime(date_str, "%Y-%m-%d")
+    date = parse_date(date_str)
     
     # Define phase dates
     if date < datetime(2025, 11, 24):
@@ -70,11 +80,11 @@ def determine_phase(date_str):
 
 def get_days_until_race(date_str, events):
     """Calculate days until next race"""
-    current_date = datetime.strptime(date_str, "%Y-%m-%d")
+    current_date = parse_date(date_str)
     
     for event in events:
         if 'Race Day' in event.get('Description', '') or event['Subject'] not in ['Practice']:
-            event_date = datetime.strptime(event['Start Date'], "%Y-%m-%d")
+            event_date = parse_date(event['Start Date'])
             if event_date > current_date:
                 return (event_date - current_date).days, event['Subject']
     return None, None
@@ -285,16 +295,17 @@ def generate_holiday_workout(date):
 def create_workout_markdown(event, workout_data, week_num):
     """Create a markdown file for a workout"""
     date = event['Start Date']
-    date_obj = datetime.strptime(date, "%Y-%m-%d")
+    date_obj = parse_date(date)
     
-    # Create filename
-    filename = f"{date}-workout.md"
+    # Create filename with standardized date format
+    date_formatted = date_obj.strftime("%Y-%m-%d")
+    filename = f"{date_formatted}-workout.md"
     filepath = os.path.join(WORKOUT_DIR, filename)
     
     # Generate markdown content
     content = f"""---
 title: "{workout_data['title']}"
-date: {date}
+date: {date_formatted}
 week: {week_num}
 type: "training"
 duration: "{event.get('Start Time', '')} - {event.get('End Time', '')}"
@@ -324,7 +335,9 @@ intensity: "{workout_data.get('intensity', '5')}"
 - Focus on quality over quantity''')}
 
 ### Equipment Needed
-{workout_data.get('equipment', '- Water bottle\n- Appropriate training clothes\n- Running shoes or ski equipment as needed')}
+{workout_data.get('equipment', '''- Water bottle
+- Appropriate training clothes
+- Running shoes or ski equipment as needed''')}
 
 ---
 *Remember: Listen to your body. Quality training beats quantity every time.*"""
@@ -333,7 +346,7 @@ intensity: "{workout_data.get('intensity', '5')}"
 
 def create_waxing_announcement(race_event):
     """Create waxing session announcement before races"""
-    race_date = datetime.strptime(race_event['Start Date'], "%Y-%m-%d")
+    race_date = parse_date(race_event['Start Date'])
     wax_date = race_date - timedelta(days=1)
     
     race_type = "Skate" if "Skate" in race_event.get('Description', '') else "Classic"
@@ -398,7 +411,7 @@ def main():
         if not event['Subject']:
             continue
             
-        event_date = datetime.strptime(event['Start Date'], "%Y-%m-%d")
+        event_date = parse_date(event['Start Date'])
         week_num = ((event_date - start_date).days // 7) + 1
         
         if event['Subject'] == 'Practice':
