@@ -125,6 +125,33 @@ def create_calendar_csv():
                 "Private": "False"
             })
     
+    # Add missing practice days manually
+    # November 11 practice
+    calendar_events.append({
+        "Subject": "Practice: 🏃 Dryland Training",
+        "Start Date": "11/11/2025",
+        "Start Time": "3:30 PM",
+        "End Date": "11/11/2025",
+        "End Time": "5:30 PM",
+        "All Day Event": "False",
+        "Description": "🏃 Dryland Training\nBase Building - Hill Repeats\n\nView Workout Plan: https://rapidsnordic.com/workouts/2025-11-11-workout/\n\n[Orange Event]",
+        "Location": "Grand Rapids HS (meet at front doors)",
+        "Private": "False"
+    })
+    
+    # January 19 (MLK Day) practice
+    calendar_events.append({
+        "Subject": "Practice: ⛷️ MLK Day Distance Ski",
+        "Start Date": "01/19/2026",
+        "Start Time": "3:30 PM",
+        "End Date": "01/19/2026",
+        "End Time": "5:30 PM",
+        "All Day Event": "False",
+        "Description": "⛷️ On-Snow Training\nMLK Day Distance Ski - Optional\n\nView Workout Plan: https://rapidsnordic.com/workouts/2026-01-19-workout/\n\n[Blue Event]",
+        "Location": "Mt. Itasca",
+        "Private": "False"
+    })
+    
     # Add special events
     # Season Kickoff Meeting
     calendar_events.append({
