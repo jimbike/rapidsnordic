@@ -1,5 +1,16 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { getCollection } from 'astro:content';
+
+// Get all announcements and sort by date (newest first)
+const allAnnouncements = await getCollection('announcements');
+const sortedAnnouncements = allAnnouncements
+  .sort((a, b) => {
+    const dateA = a.data.date || new Date(0);
+    const dateB = b.data.date || new Date(0);
+    return dateB.getTime() - dateA.getTime();
+  })
+  .slice(0, 3); // Get only the 3 most recent
 ---
 <BaseLayout title="Rapids Nordic - Home">
   <section class="hero" slot="hero">
@@ -39,4 +50,113 @@ import BaseLayout from "../layouts/BaseLayout.astro";
       <p><strong>Practice Times:</strong> See calendar for details</p>
     </section>
   </div>
+
+  <!-- Recent Announcements Section -->
+  <section class="announcements-section">
+    <h2 style="text-align: center; margin: 2rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--brand);">
+      Latest Team News
+    </h2>
+    
+    <div class="announcements-feed">
+      {sortedAnnouncements.length > 0 ? (
+        sortedAnnouncements.map(post => (
+          <article class="announcement-card">
+            <div class="announcement-date">
+              {post.data.date ? new Date(post.data.date).toLocaleDateString('en-US', { 
+                month: 'short', 
+                day: 'numeric',
+                year: 'numeric'
+              }) : 'Recent'}
+            </div>
+            <h3>
+              <a href={`/announcements/${post.slug}/`}>{post.data.title}</a>
+            </h3>
+            <p class="announcement-excerpt">
+              {post.body ? post.body.substring(0, 150).replace(/^#.*\n/gm, '').trim() + '...' : 'Click to read more'}
+            </p>
+            <a href={`/announcements/${post.slug}/`} class="read-more">
+              Read more →
+            </a>
+          </article>
+        ))
+      ) : (
+        <p style="text-align: center; color: #666;">No announcements yet. Check back soon!</p>
+      )}
+    </div>
+    
+    <div style="text-align: center; margin-top: 2rem;">
+      <a href="/announcements" class="button">View All Announcements</a>
+    </div>
+  </section>
+
+  <style>
+    .announcements-section {
+      max-width: 1200px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+    
+    .announcements-feed {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    
+    .announcement-card {
+      background: white;
+      border: 1px solid #e5e5e5;
+      border-radius: 8px;
+      padding: 1.5rem;
+      transition: transform 0.2s, box-shadow 0.2s;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .announcement-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+    
+    .announcement-date {
+      color: var(--brand);
+      font-weight: 600;
+      font-size: 0.9rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .announcement-card h3 {
+      margin: 0 0 1rem 0;
+      font-size: 1.25rem;
+      line-height: 1.3;
+    }
+    
+    .announcement-card h3 a {
+      color: var(--black);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+    
+    .announcement-card h3 a:hover {
+      color: var(--brand);
+    }
+    
+    .announcement-excerpt {
+      color: #666;
+      line-height: 1.6;
+      margin-bottom: 1rem;
+      flex-grow: 1;
+    }
+    
+    .read-more {
+      color: var(--brand);
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    
+    .read-more:hover {
+      text-decoration: underline;
+    }
+  </style>
 </BaseLayout>
