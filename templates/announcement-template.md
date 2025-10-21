@@ -1,8 +1,10 @@
 ---
 title: "{{title}}"
-date: {{date}}
-author: "Coach"
-tags: [announcement]
+date:
+  "{ date }":
+author: Coach
+tags:
+  - announcement
 ---
 
 ## {{title}}
