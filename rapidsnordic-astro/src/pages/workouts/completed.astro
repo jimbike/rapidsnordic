@@ -1,0 +1,101 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('workouts', ({ data }) => !data.draft);
+
+// Get today's date (start of day)
+const today = new Date();
+today.setHours(0, 0, 0, 0);
+
+// Get past workouts
+const pastWorkouts = posts.filter(post => {
+  const workoutDate = new Date(post.data.date);
+  workoutDate.setHours(0, 0, 0, 0);
+  return workoutDate.getTime() < today.getTime();
+}).sort((a, b) => b.data.date.getTime() - a.data.date.getTime()); // Most recent first
+
+// Group workouts by month
+const workoutsByMonth = pastWorkouts.reduce((acc, post) => {
+  const monthYear = post.data.date.toLocaleDateString('en-US', { month: 'long', year: 'numeric' });
+  if (!acc[monthYear]) {
+    acc[monthYear] = [];
+  }
+  acc[monthYear].push(post);
+  return acc;
+}, {});
+---
+<BaseLayout title="GRHS Nordic — Completed Workouts">
+  <style>
+    .back-link {
+      display: inline-block;
+      margin-bottom: 1rem;
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .back-link:hover {
+      text-decoration: underline;
+    }
+    .workout-list {
+      list-style: none;
+      padding: 0;
+    }
+    .workout-list li {
+      padding: 0.75rem 0;
+      border-bottom: 1px solid #e5e7eb;
+    }
+    .workout-list li:last-child {
+      border-bottom: none;
+    }
+    .workout-list a {
+      color: #1f2937;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .workout-list a:hover {
+      color: #667eea;
+      text-decoration: underline;
+    }
+    .workout-date {
+      color: #6b7280;
+      font-size: 0.875rem;
+    }
+    .month-header {
+      margin-top: 2rem;
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 2px solid #e5e7eb;
+      color: #4b5563;
+      font-weight: 600;
+    }
+    .month-header:first-of-type {
+      margin-top: 0;
+    }
+  </style>
+
+  <section class="card">
+    <a href="/workouts" class="back-link">← Back to upcoming workouts</a>
+    <h2>Completed Workouts</h2>
+    
+    {pastWorkouts.length > 0 ? (
+      <div>
+        {Object.entries(workoutsByMonth).map(([monthYear, monthWorkouts], index) => (
+          <>
+            <h3 class="month-header" style={index === 0 ? "margin-top: 0;" : ""}>{monthYear}</h3>
+            <ul class="workout-list">
+              {monthWorkouts.map(post => (
+                <li>
+                  <a href={`/workouts/${post.slug}/`}>{post.data.title}</a>
+                  <div class="workout-date">{post.data.date.toDateString()}</div>
+                </li>
+              ))}
+            </ul>
+          </>
+        ))}
+      </div>
+    ) : (
+      <p>No completed workouts yet.</p>
+    )}
+  </section>
+</BaseLayout>
