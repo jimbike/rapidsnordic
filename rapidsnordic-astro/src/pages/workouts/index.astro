@@ -1,19 +1,114 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { getCollection } from 'astro:content';
+
 const posts = await getCollection('workouts', ({ data }) => !data.draft);
-posts.sort((a,b)=> b.data.date.getTime() - a.data.date.getTime());
+
+// Get today's date (start of day)
+const today = new Date();
+today.setHours(0, 0, 0, 0);
+
+// Get tomorrow's date (for comparison)
+const tomorrow = new Date(today);
+tomorrow.setDate(tomorrow.getDate() + 1);
+
+// Separate workouts into categories
+const todayWorkout = posts.find(post => {
+  const workoutDate = new Date(post.data.date);
+  workoutDate.setHours(0, 0, 0, 0);
+  return workoutDate.getTime() === today.getTime();
+});
+
+const upcomingWorkouts = posts.filter(post => {
+  const workoutDate = new Date(post.data.date);
+  workoutDate.setHours(0, 0, 0, 0);
+  return workoutDate.getTime() > today.getTime();
+}).sort((a, b) => a.data.date.getTime() - b.data.date.getTime()); // Earliest first
+
+const pastWorkoutsCount = posts.filter(post => {
+  const workoutDate = new Date(post.data.date);
+  workoutDate.setHours(0, 0, 0, 0);
+  return workoutDate.getTime() < today.getTime();
+}).length;
 ---
 <BaseLayout title="GRHS Nordic — Workouts">
+  <style>
+    .today-card {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 2rem;
+      border-radius: 12px;
+      margin-bottom: 2rem;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    }
+    .today-card h3 {
+      margin: 0 0 0.5rem 0;
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+    .today-card .label {
+      background: rgba(255,255,255,0.2);
+      padding: 0.25rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.875rem;
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+    .today-card a {
+      color: white;
+      text-decoration: none;
+      font-size: 1.25rem;
+      font-weight: 600;
+    }
+    .today-card a:hover {
+      text-decoration: underline;
+    }
+    .today-card .date {
+      opacity: 0.9;
+      margin-top: 0.5rem;
+    }
+    .completed-link {
+      display: inline-block;
+      margin-top: 1rem;
+      color: #667eea;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .completed-link:hover {
+      text-decoration: underline;
+    }
+  </style>
+
+  {todayWorkout && (
+    <section class="today-card">
+      <span class="label">TODAY'S WORKOUT</span>
+      <h3>
+        <a href={`/workouts/${todayWorkout.slug}/`}>{todayWorkout.data.title}</a>
+      </h3>
+      <div class="date">{todayWorkout.data.date.toDateString()}</div>
+    </section>
+  )}
+
   <section class="card">
-    <h2>Workouts</h2>
-    <ul>
-      {posts.map(post => (
-        <li>
-          <a href={`/workouts/${post.slug}/`}>{post.data.title}</a>
-          <span style="color:#6b7280"> — {post.data.date.toDateString()}</span>
-        </li>
-      ))}
-    </ul>
+    <h2>Upcoming Workouts</h2>
+    {upcomingWorkouts.length > 0 ? (
+      <ul>
+        {upcomingWorkouts.map(post => (
+          <li>
+            <a href={`/workouts/${post.slug}/`}>{post.data.title}</a>
+            <span style="color:#6b7280"> — {post.data.date.toDateString()}</span>
+          </li>
+        ))}
+      </ul>
+    ) : (
+      <p>No upcoming workouts scheduled.</p>
+    )}
+    
+    {pastWorkoutsCount > 0 && (
+      <a href="/workouts/completed" class="completed-link">
+        View {pastWorkoutsCount} completed workout{pastWorkoutsCount !== 1 ? 's' : ''} →
+      </a>
+    )}
   </section>
 </BaseLayout>
