@@ -1,13 +1,16 @@
 ---
-title: "Wax Session for Proctor Invite"
-date: 2025-12-08
-author: "Coach"
-tags: [waxing, race-prep, volunteer]
+title: Wax Session for Proctor Invite
+date: 2025-12-10
+author: Coach
+tags:
+  - waxing
+  - race-prep
+  - volunteer
 ---
 
 ## Ski Waxing Session - Proctor Invite
 
-**When:** December 08 (day before race)  
+**When:** December 10 (day before race)  
 **Time:** 5:00 PM - 7:00 PM  
 **Location:** GRHS Wax Room  
 **Race:** Proctor Invite (Skate)
