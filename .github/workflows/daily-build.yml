@@ -1,0 +1,21 @@
+name: Daily Scheduled Build
+
+on:
+  schedule:
+    # Runs at 6:00 AM UTC every day (11:00 PM PST / 12:00 AM MST)
+    - cron: '0 6 * * *'
+  workflow_dispatch:  # Allow manual trigger from GitHub Actions UI
+
+jobs:
+  trigger-netlify-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Netlify Build
+        run: |
+          curl -X POST -d '{}' https://api.netlify.com/build_hooks/692311909b99cadcfd8082bd
+          echo "✅ Daily build triggered at $(date)"
+      
+      - name: Log Build Trigger
+        run: |
+          echo "Build triggered on: $(date '+%Y-%m-%d %H:%M:%S UTC')"
+          echo "This ensures content freshness and updates any date-based content"
