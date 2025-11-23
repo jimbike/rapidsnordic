@@ -23,7 +23,7 @@ The Proctor Invite marks our first race of the season. This will be a skate tech
 - **Return:** Approximately 4:00 PM to GRHS
 
 ### Schedule
-- **Arrival Time:** 10:00 AM
+- **Arrival Time:** 8:30 AM
 - **Course Inspection:** 10:15 AM  
 - **Warm-up:** 10:30 AM
 - **Race Start:** 11:00 AM
