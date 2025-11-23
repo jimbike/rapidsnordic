@@ -29,11 +29,11 @@ The Proctor Invite marks our first race of the season. This will be a skate tech
 - **Race Start:** 11:00 AM
 
 ### What to Bring
-- Skate skis (waxed at Dec 10 wax session)
+- Skate skis & Poles (waxed at Dec 10 wax session)
 - Racing suit or team uniform
 - Warm-ups and extra layers
 - Water and snacks
-- Spare pole tips/baskets
+
 
 ### Course Information
 The Grand Avenue Nordic trails offer a challenging mix of terrain perfect for the season opener. Athletes should be prepared for both technical descents and sustained climbs.
