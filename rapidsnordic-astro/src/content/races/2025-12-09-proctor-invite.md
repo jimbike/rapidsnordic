@@ -1,12 +1,13 @@
 ---
-title: Proctor Invite
-date: 2025-12-11
-location: Grand Avenue Nordic
-venue: Grand Avenue Nordic Center
-startTime: 11:00 AM
-format: Skate
+title: "Proctor Invite"
+date: 2025-12-09
+location: "Duluth"
+venue: "Grand Avenue Nordic Center"
+startTime: "11:00 AM"
+format: "Skate"
 resultsLink: ""
-description: Season opening race featuring skate technique competition at Grand Avenue Nordic Center.
+address: "8551 Grand Ave, Duluth, MN 55808"
+description: "Season opening race featuring skate technique competition at Grand Avenue Nordic Center."
 teamGoals:
   - Focus on technique fundamentals
   - Complete the full race distance

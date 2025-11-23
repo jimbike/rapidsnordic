@@ -6,6 +6,7 @@ venue: "Vasaloppet Nordic Center"
 startTime: "TBD"
 format: "Classic"
 resultsLink: ""
+address: "401 Nordic Center Drive, Mora, MN 55051"
 description: "Classic technique race at the historic Vasaloppet Nordic Center in Mora."
 teamGoals:
   - "Strong classic technique execution"

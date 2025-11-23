@@ -1,11 +1,12 @@
 ---
 title: "Section 7 Meet"
 date: 2026-02-04
-location: "Giants Ridge"
+location: "Biwabik"
 venue: "Giants Ridge Recreation Area"
 startTime: "10:00 AM"
 format: "Classic Sprint"
 resultsLink: ""
+address: "6329 Wynne Creek Dr, Biwabik, MN 55708"
 description: "Section 7 Championship meet featuring classic sprint and pursuit formats. Top finishers qualify for State."
 teamGoals:
   - "Qualify athletes for State meet"

@@ -1,11 +1,12 @@
 ---
 title: "Giants Ridge Race"
 date: 2026-01-13
-location: "Giants Ridge"
+location: "Biwabik"
 venue: "Giants Ridge Recreation Area"
 startTime: "TBD"
 format: "Skate"
 resultsLink: ""
+address: "6329 Wynne Creek Dr, Biwabik, MN 55708"
 description: "Skate technique race at Giants Ridge."
 teamGoals:
   - "Build on Mesabi East performance"

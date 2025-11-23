@@ -1,11 +1,12 @@
 ---
 title: "Cook County Invite"
 date: 2025-12-20
-location: "Pincushion"
+location: "Grand Marais"
 venue: "Pincushion Mountain Trails"
 startTime: "11:00 AM"
 format: "Classic"
 resultsLink: ""
+address: "1 Pincushion Dr, Grand Marais, MN 55604"
 description: "Classic technique race at the scenic Pincushion Mountain trail system."
 teamGoals:
   - "Maintain consistent pacing on challenging terrain"

@@ -58,7 +58,17 @@ const isUpcoming = new Date(race.data.date) >= new Date();
           <p class="venue">{race.data.venue}</p>
           <p class="location">{race.data.location}</p>
           {race.data.address && (
-            <p class="address">{race.data.address}</p>
+            <>
+              <p class="address">{race.data.address}</p>
+              <a 
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(race.data.address)}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="map-link"
+              >
+                📍 Get Directions
+              </a>
+            </>
           )}
         </div>
 
@@ -223,6 +233,23 @@ const isUpcoming = new Date(race.data.date) >= new Date();
     font-size: 0.875rem;
     color: #718096;
     font-style: italic;
+  }
+
+  .map-link {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #3182ce;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    transition: background 0.2s ease;
+  }
+
+  .map-link:hover {
+    background: #2563eb;
   }
 
   .bus-info {

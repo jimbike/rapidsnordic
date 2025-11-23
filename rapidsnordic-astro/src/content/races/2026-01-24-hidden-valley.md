@@ -1,11 +1,12 @@
 ---
 title: "Hidden Valley Race"
 date: 2026-01-24
-location: "Hidden Valley"
+location: "Ely"
 venue: "Hidden Valley Recreation Area"
 startTime: "TBD"
 format: "Classic Sprint"
 resultsLink: ""
+address: "1258 Hidden Valley Rd, Ely, MN 55731"
 description: "Classic sprint and pursuit format races at Hidden Valley."
 teamGoals:
   - "Strong sprint qualifying times"

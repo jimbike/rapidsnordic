@@ -1,11 +1,12 @@
 ---
 title: "Pine Valley Race"
 date: 2026-01-06
-location: "Pine Valley"
+location: "Cloquet"
 venue: "Pine Valley Nordic Center"
 startTime: "TBD"
 format: "Skate"
 resultsLink: ""
+address: "1106 Olympic Dr, Cloquet, MN 55720"
 description: "Skate technique race at Pine Valley Nordic Center."
 teamGoals:
   - "Strong V2 technique on climbs"

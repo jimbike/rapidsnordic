@@ -1,12 +1,13 @@
 ---
 title: "Two Harbors Invite"
 date: 2026-01-20
-location: "Two Harbors"
+location: "Duluth"
 venue: "Korkki Nordic Center"
 startTime: "11:00 AM"
 format: "Classic"
 resultsLink: ""
-description: "Classic technique invitational race at Korkki Nordic Center in Two Harbors."
+address: "1711 Korkki Rd, Duluth, MN 55804"
+description: "Classic technique invitational race at Korkki Nordic Center."
 teamGoals:
   - "Execute strong race tactics"
   - "Maintain form throughout race"

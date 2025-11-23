@@ -1,11 +1,12 @@
 ---
 title: "MSHSL State Meet - Day 1"
 date: 2026-02-11
-location: "Giants Ridge"
+location: "Biwabik"
 venue: "Giants Ridge Recreation Area"
 startTime: "TBD"
 format: "Classic Sprint"
 resultsLink: ""
+address: "6329 Wynne Creek Dr, Biwabik, MN 55708"
 description: "Minnesota State High School Nordic Ski Championships - Day 1 featuring Classic Sprint competitions."
 teamGoals:
   - "Peak performance at State"
