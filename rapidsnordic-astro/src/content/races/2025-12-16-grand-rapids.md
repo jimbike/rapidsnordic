@@ -17,6 +17,9 @@ teamGoals:
 
 Racing on our home trails at Mt Itasca! This classic technique race gives us the opportunity to showcase our training on familiar terrain.
 
+### Bus Schedule
+- **No bus for home race** - Meet directly at venue
+
 ### Schedule
 - **Race Time:** To be announced
 - **Meet Location:** Mt Itasca main chalet

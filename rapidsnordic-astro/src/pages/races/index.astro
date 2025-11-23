@@ -1,0 +1,243 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const races = await getCollection('races');
+const sortedRaces = races.sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf());
+
+const formatDate = (date: Date) => {
+  return date.toLocaleDateString('en-US', { 
+    weekday: 'short',
+    month: 'short', 
+    day: 'numeric',
+    year: 'numeric'
+  });
+};
+
+const today = new Date();
+today.setHours(0, 0, 0, 0);
+
+const upcomingRaces = sortedRaces.filter(race => {
+  const raceDate = new Date(race.data.date);
+  raceDate.setHours(0, 0, 0, 0);
+  return raceDate >= today;
+});
+
+const pastRaces = sortedRaces.filter(race => {
+  const raceDate = new Date(race.data.date);
+  raceDate.setHours(0, 0, 0, 0);
+  return raceDate < today;
+});
+---
+
+<BaseLayout title="Races">
+  <main class="container">
+    <h1>2025-2026 Race Schedule</h1>
+    
+    {upcomingRaces.length > 0 && (
+      <>
+        <h2>Upcoming Races</h2>
+        <div class="race-grid">
+          {upcomingRaces.map((race) => (
+            <a href={`/races/${race.slug}`} class="race-card">
+              <div class="race-header">
+                <h3>{race.data.title}</h3>
+                <span class="race-format format-{race.data.format.toLowerCase().replace(' ', '-')}">
+                  {race.data.format}
+                </span>
+              </div>
+              <div class="race-details">
+                <p class="race-date">{formatDate(race.data.date)}</p>
+                <p class="race-location">{race.data.venue}</p>
+                <p class="race-time">Start: {race.data.startTime}</p>
+              </div>
+              {race.data.description && (
+                <p class="race-description">{race.data.description}</p>
+              )}
+            </a>
+          ))}
+        </div>
+      </>
+    )}
+    
+    {pastRaces.length > 0 && (
+      <>
+        <h2>Past Races</h2>
+        <div class="race-grid past-races">
+          {pastRaces.map((race) => (
+            <a href={`/races/${race.slug}`} class="race-card past">
+              <div class="race-header">
+                <h3>{race.data.title}</h3>
+                <span class="race-format format-{race.data.format.toLowerCase().replace(' ', '-')}">
+                  {race.data.format}
+                </span>
+              </div>
+              <div class="race-details">
+                <p class="race-date">{formatDate(race.data.date)}</p>
+                <p class="race-location">{race.data.venue}</p>
+                {race.data.resultsLink && (
+                  <p class="race-results">
+                    <a href={race.data.resultsLink} target="_blank" rel="noopener noreferrer">
+                      View Results →
+                    </a>
+                  </p>
+                )}
+              </div>
+            </a>
+          ))}
+        </div>
+      </>
+    )}
+  </main>
+</BaseLayout>
+
+<style>
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  h1 {
+    color: #1e3a5f;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  h2 {
+    color: #2c5282;
+    margin: 2rem 0 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e2e8f0;
+  }
+
+  .race-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+  }
+
+  .race-card {
+    background: white;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .race-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-color: #3182ce;
+  }
+
+  .race-card.past {
+    opacity: 0.8;
+    background: #f7fafc;
+  }
+
+  .race-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+  }
+
+  .race-header h3 {
+    margin: 0;
+    color: #1e3a5f;
+    font-size: 1.25rem;
+  }
+
+  .race-format {
+    padding: 0.25rem 0.75rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+
+  .format-skate {
+    background: #bee3f8;
+    color: #2c5282;
+  }
+
+  .format-classic {
+    background: #c6f6d5;
+    color: #22543d;
+  }
+
+  .format-pursuit {
+    background: #fbb6ce;
+    color: #702459;
+  }
+
+  .format-classic-sprint,
+  .format-skate-sprint {
+    background: #fed7aa;
+    color: #7c2d12;
+  }
+
+  .race-details p {
+    margin: 0.5rem 0;
+    color: #4a5568;
+  }
+
+  .race-date {
+    font-weight: 600;
+    color: #2d3748;
+  }
+
+  .race-location {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .race-location::before {
+    content: "📍";
+  }
+
+  .race-time {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+  }
+
+  .race-time::before {
+    content: "⏰";
+  }
+
+  .race-description {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #e2e8f0;
+    color: #718096;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+
+  .race-results a {
+    color: #3182ce;
+    font-weight: 600;
+  }
+
+  .race-results a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .race-grid {
+      grid-template-columns: 1fr;
+    }
+    
+    .container {
+      padding: 1rem;
+    }
+  }
+</style>

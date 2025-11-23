@@ -1,0 +1,339 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const races = await getCollection('races');
+  return races.map(race => ({
+    params: { slug: race.slug },
+    props: { race }
+  }));
+}
+
+const { race } = Astro.props;
+const { Content } = await race.render();
+
+const formatDate = (date: Date) => {
+  return date.toLocaleDateString('en-US', { 
+    weekday: 'long',
+    month: 'long', 
+    day: 'numeric',
+    year: 'numeric'
+  });
+};
+
+const isUpcoming = new Date(race.data.date) >= new Date();
+---
+
+<BaseLayout title={race.data.title}>
+  <main class="container">
+    <article class="race-detail">
+      <header class="race-header">
+        <h1>{race.data.title}</h1>
+        <div class="race-meta">
+          <span class="race-format format-{race.data.format.toLowerCase().replace(' ', '-')}">
+            {race.data.format}
+          </span>
+          {isUpcoming ? (
+            <span class="race-status upcoming">Upcoming Race</span>
+          ) : (
+            <span class="race-status past">Past Race</span>
+          )}
+        </div>
+      </header>
+
+      <div class="race-info-grid">
+        <div class="info-card">
+          <h3>📅 Date</h3>
+          <p>{formatDate(race.data.date)}</p>
+        </div>
+        
+        <div class="info-card">
+          <h3>⏰ Start Time</h3>
+          <p>{race.data.startTime}</p>
+        </div>
+        
+        <div class="info-card">
+          <h3>📍 Location</h3>
+          <p class="venue">{race.data.venue}</p>
+          <p class="location">{race.data.location}</p>
+          {race.data.address && (
+            <p class="address">{race.data.address}</p>
+          )}
+        </div>
+
+        {race.data.busInfo && (
+          <div class="info-card bus-info">
+            <h3>🚌 Bus Schedule</h3>
+            <p><strong>Departure:</strong> {race.data.busInfo.departTime}</p>
+            {race.data.busInfo.returnTime && (
+              <p><strong>Return:</strong> {race.data.busInfo.returnTime}</p>
+            )}
+          </div>
+        )}
+      </div>
+
+      {race.data.teamGoals && race.data.teamGoals.length > 0 && (
+        <div class="team-goals">
+          <h2>Team Goals</h2>
+          <ul>
+            {race.data.teamGoals.map(goal => (
+              <li>{goal}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      <div class="race-content">
+        <Content />
+      </div>
+
+      {race.data.resultsLink && (
+        <div class="results-section">
+          <a href={race.data.resultsLink} target="_blank" rel="noopener noreferrer" class="results-link">
+            View Race Results →
+          </a>
+        </div>
+      )}
+
+      {race.data.registrationLink && (
+        <div class="registration-section">
+          <a href={race.data.registrationLink} target="_blank" rel="noopener noreferrer" class="registration-link">
+            Register for Race →
+          </a>
+        </div>
+      )}
+
+      <div class="navigation">
+        <a href="/races" class="back-link">← Back to All Races</a>
+      </div>
+    </article>
+  </main>
+</BaseLayout>
+
+<style>
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+  .race-detail {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .race-header {
+    border-bottom: 2px solid #e2e8f0;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .race-header h1 {
+    color: #1e3a5f;
+    margin: 0 0 1rem 0;
+    font-size: 2.5rem;
+  }
+
+  .race-meta {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+  }
+
+  .race-format {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  .format-skate {
+    background: #bee3f8;
+    color: #2c5282;
+  }
+
+  .format-classic {
+    background: #c6f6d5;
+    color: #22543d;
+  }
+
+  .format-pursuit {
+    background: #fbb6ce;
+    color: #702459;
+  }
+
+  .format-classic-sprint,
+  .format-skate-sprint {
+    background: #fed7aa;
+    color: #7c2d12;
+  }
+
+  .race-status {
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-size: 0.875rem;
+    font-weight: 600;
+  }
+
+  .race-status.upcoming {
+    background: #e6fffa;
+    color: #065666;
+  }
+
+  .race-status.past {
+    background: #f7fafc;
+    color: #4a5568;
+  }
+
+  .race-info-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .info-card {
+    background: #f7fafc;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    padding: 1.25rem;
+  }
+
+  .info-card h3 {
+    margin: 0 0 0.75rem 0;
+    color: #2d3748;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+
+  .info-card p {
+    margin: 0.25rem 0;
+    color: #4a5568;
+  }
+
+  .info-card .venue {
+    font-weight: 600;
+    color: #2d3748;
+  }
+
+  .info-card .address {
+    font-size: 0.875rem;
+    color: #718096;
+    font-style: italic;
+  }
+
+  .bus-info {
+    background: #fef5e7;
+    border-color: #f4e1c1;
+  }
+
+  .team-goals {
+    background: #edf2f7;
+    border-radius: 6px;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .team-goals h2 {
+    margin: 0 0 1rem 0;
+    color: #2d3748;
+    font-size: 1.25rem;
+  }
+
+  .team-goals ul {
+    margin: 0;
+    padding-left: 1.5rem;
+    color: #4a5568;
+  }
+
+  .team-goals li {
+    margin: 0.5rem 0;
+  }
+
+  .race-content {
+    margin: 2rem 0;
+    color: #2d3748;
+    line-height: 1.7;
+  }
+
+  .race-content :global(h2) {
+    color: #1e3a5f;
+    margin: 2rem 0 1rem 0;
+    font-size: 1.5rem;
+  }
+
+  .race-content :global(h3) {
+    color: #2d3748;
+    margin: 1.5rem 0 0.75rem 0;
+    font-size: 1.25rem;
+  }
+
+  .race-content :global(ul) {
+    margin: 1rem 0;
+    padding-left: 1.5rem;
+  }
+
+  .race-content :global(li) {
+    margin: 0.5rem 0;
+  }
+
+  .results-section,
+  .registration-section {
+    margin: 2rem 0;
+    text-align: center;
+  }
+
+  .results-link,
+  .registration-link {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background: #3182ce;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: background 0.2s ease;
+  }
+
+  .results-link:hover,
+  .registration-link:hover {
+    background: #2563eb;
+  }
+
+  .navigation {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid #e2e8f0;
+  }
+
+  .back-link {
+    color: #3182ce;
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .back-link:hover {
+    text-decoration: underline;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      padding: 1rem;
+    }
+
+    .race-detail {
+      padding: 1.5rem;
+    }
+
+    .race-header h1 {
+      font-size: 2rem;
+    }
+
+    .race-info-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

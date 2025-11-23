@@ -1,20 +1,25 @@
 ---
-title: "Proctor Invite"
-date: 2025-12-09
-location: "Grand Avenue Nordic"
-venue: "Grand Avenue Nordic Center"
-startTime: "11:00 AM"
-format: "Skate"
-description: "Season opening race featuring skate technique competition at Grand Avenue Nordic Center."
+title: Proctor Invite
+date: 2025-12-11
+location: Grand Avenue Nordic
+venue: Grand Avenue Nordic Center
+startTime: 11:00 AM
+format: Skate
+resultsLink: ""
+description: Season opening race featuring skate technique competition at Grand Avenue Nordic Center.
 teamGoals:
-  - "Focus on technique fundamentals"
-  - "Complete the full race distance"
-  - "Support teammates throughout the event"
+  - Focus on technique fundamentals
+  - Complete the full race distance
+  - Support teammates throughout the event
 ---
 
 ## Race Details
 
 The Proctor Invite marks our first race of the season. This will be a skate technique race at Grand Avenue Nordic Center.
+
+### Bus Schedule
+- **Departure:** 7:00 AM from GRHS Parking Lot
+- **Return:** Approximately 4:00 PM to GRHS
 
 ### Schedule
 - **Arrival Time:** 10:00 AM
@@ -23,7 +28,7 @@ The Proctor Invite marks our first race of the season. This will be a skate tech
 - **Race Start:** 11:00 AM
 
 ### What to Bring
-- Skate skis (waxed at Dec 8 wax session)
+- Skate skis (waxed at Dec 10 wax session)
 - Racing suit or team uniform
 - Warm-ups and extra layers
 - Water and snacks
@@ -37,3 +42,6 @@ Spectators are welcome! The best viewing locations are at the start/finish area 
 
 ### Post-Race
 Team meeting immediately following the last finisher. Awards ceremony to follow.
+
+### Results
+- **Live Results:** [Link will be posted when available]
