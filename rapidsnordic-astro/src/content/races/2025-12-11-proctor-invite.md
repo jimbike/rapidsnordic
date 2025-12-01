@@ -7,6 +7,9 @@ startTime: 11:00 AM
 format: Skate
 resultsLink: ""
 address: 8551 Grand Ave, Duluth, MN 55808
+busInfo:
+  departTime: "7:00 AM from GRHS"
+  returnTime: "4:00 PM"
 description: Season opening race featuring skate technique competition at Grand Avenue Nordic Center.
 teamGoals:
   - Focus on technique fundamentals

@@ -7,6 +7,9 @@ startTime: "TBD"
 format: "Classic Sprint"
 resultsLink: ""
 address: "6329 Wynne Creek Dr, Biwabik, MN 55708"
+busInfo:
+  departTime: "TBD from GRHS"
+  returnTime: "TBD (may stay for Day 2)"
 description: "Minnesota State High School Nordic Ski Championships - Day 1 featuring Classic Sprint competitions."
 teamGoals:
   - "Peak performance at State"
@@ -20,7 +23,7 @@ The MSHSL State Meet is the pinnacle of high school nordic skiing in Minnesota. 
 
 ### Bus Schedule
 - **Departure:** TBD from GRHS Parking Lot
-- **Return:** TBD (may stay for Day 2)
+- **Return:** TBD 
 
 ### Schedule
 - **Details:** To be announced by MSHSL

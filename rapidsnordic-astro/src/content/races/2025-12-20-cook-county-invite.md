@@ -7,6 +7,9 @@ startTime: "11:00 AM"
 format: "Classic"
 resultsLink: ""
 address: "1 Pincushion Dr, Grand Marais, MN 55604"
+busInfo:
+  departTime: "8:00 AM from GRHS"
+  returnTime: "3:00 PM"
 description: "Classic technique race at the scenic Pincushion Mountain trail system."
 teamGoals:
   - "Maintain consistent pacing on challenging terrain"

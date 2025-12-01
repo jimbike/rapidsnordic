@@ -7,6 +7,9 @@ startTime: "TBD"
 format: "Skate"
 resultsLink: ""
 address: "1106 Olympic Dr, Cloquet, MN 55720"
+busInfo:
+  departTime: "TBD from GRHS"
+  returnTime: "TBD"
 description: "Skate technique race at Pine Valley for State meet preparation."
 teamGoals:
   - "Final tune-up for State"

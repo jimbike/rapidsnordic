@@ -7,6 +7,9 @@ startTime: "11:00 AM"
 format: "Classic"
 resultsLink: ""
 address: "1711 Korkki Rd, Duluth, MN 55804"
+busInfo:
+  departTime: "8:30 AM from GRHS"
+  returnTime: "3:30 PM"
 description: "Classic technique invitational race at Korkki Nordic Center."
 teamGoals:
   - "Execute strong race tactics"

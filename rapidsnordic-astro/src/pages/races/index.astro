@@ -50,6 +50,9 @@ const pastRaces = sortedRaces.filter(race => {
                 <p class="race-date">{formatDate(race.data.date)}</p>
                 <p class="race-location">{race.data.venue}</p>
                 <p class="race-time">Start: {race.data.startTime}</p>
+                {race.data.busInfo && race.data.busInfo.departTime && (
+                  <p class="race-bus">Bus: {race.data.busInfo.departTime}</p>
+                )}
               </div>
               {race.data.description && (
                 <p class="race-description">{race.data.description}</p>
@@ -210,6 +213,18 @@ const pastRaces = sortedRaces.filter(race => {
 
   .race-time::before {
     content: "⏰";
+  }
+
+  .race-bus {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-weight: 600;
+    color: #b45309;
+  }
+
+  .race-bus::before {
+    content: "🚌";
   }
 
   .race-description {

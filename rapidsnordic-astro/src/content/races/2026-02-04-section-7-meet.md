@@ -7,6 +7,9 @@ startTime: "10:00 AM"
 format: "Classic Sprint"
 resultsLink: ""
 address: "6329 Wynne Creek Dr, Biwabik, MN 55708"
+busInfo:
+  departTime: "7:30 AM from GRHS"
+  returnTime: "5:00 PM"
 description: "Section 7 Championship meet featuring classic sprint and pursuit formats. Top finishers qualify for State."
 teamGoals:
   - "Qualify athletes for State meet"

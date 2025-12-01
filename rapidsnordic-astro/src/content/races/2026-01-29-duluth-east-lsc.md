@@ -7,6 +7,9 @@ startTime: "11:00 AM"
 format: "Pursuit"
 resultsLink: ""
 address: "4348 Rice Lake Rd, Duluth, MN 55811"
+busInfo:
+  departTime: "8:30 AM from GRHS"
+  returnTime: "4:00 PM"
 description: "Pursuit format race at Snowflake Nordic Center hosted by Duluth East and Lake Superior College."
 teamGoals:
   - "Execute pursuit strategy"

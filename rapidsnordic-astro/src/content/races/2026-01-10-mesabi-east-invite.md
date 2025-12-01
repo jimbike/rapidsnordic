@@ -7,6 +7,9 @@ startTime: "10:00 AM"
 format: "Skate"
 resultsLink: ""
 address: "6329 Wynne Creek Dr, Biwabik, MN 55708"
+busInfo:
+  departTime: "7:30 AM from GRHS"
+  returnTime: "4:00 PM"
 description: "Major invitational race at Giants Ridge featuring both skate and classic events."
 teamGoals:
   - "Execute race strategy effectively"
