@@ -37,7 +37,7 @@ Racing on our home trails provides a great advantage. Athletes should use their 
 As the host team, we need parent volunteers for:
 - Course marshaling
 - Timing assistance
-- Conssesions
+- Concessions
 
 ### Spectator Information
 Excellent viewing throughout the Mt Itasca trail system. The stadium area provides the best vantage point for starts and finishes.
