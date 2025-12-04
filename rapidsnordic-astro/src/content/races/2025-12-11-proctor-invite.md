@@ -18,20 +18,20 @@ teamGoals:
 ---
 
 ## Race Details
-**
+
 The VR / JV races will utilize the same course. 
 Exact course and race distances are not available yet.
 Junior High will complete a shorter course. Track available for classic skiers.
 Freestyle, Interval Start, 2 racers every 30 seconds.
-**
-**Running race clock starts at 11:00am
 
-11:00 - Girls Varsity 
-11:30 - Boys Varsity 
-12:00 - Girls JV 
-12:30 - Boys JV 
-1:00   - Girls JH 
-1:30   - Boys JH
+- **Running race clock starts at 11:00am
+
+- 11:00 - Girls Varsity 
+- 11:30 - Boys Varsity 
+- 12:00 - Girls JV 
+- 12:30 - Boys JV 
+- 1:00   - Girls JH 
+- 1:30   - Boys JH
 
 ### Bus Schedule
 - **Departure:** 7:00 AM from GRHS Parking Lot
