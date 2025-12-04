@@ -14,7 +14,7 @@ tags: [waxing, race-prep, volunteer]
 
 ### Parent Volunteers Needed!
 
-We need parent volunteers to help prepare skis for tomorrow's race at Mt Itasca.
+We need parent volunteers to help prepare skis for the Dec 16th race at Mt Itasca.
 
 ### What to Bring
 - Skis that need waxing (labeled with athlete's name)

@@ -17,7 +17,7 @@ tags:
 
 ### Parent Volunteers Needed!
 
-We need parent volunteers to help prepare skis for tomorrow's race at 8551 Grand Ave, Duluth, MN 55808.
+We need parent volunteers to help prepare skis for the Dec 11th race at 8551 Grand Ave, Duluth, MN 55808.
 
 ### What to Bring
 - Skis that need waxing (labeled with athlete's name)

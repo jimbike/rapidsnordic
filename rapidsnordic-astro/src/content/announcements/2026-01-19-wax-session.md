@@ -14,7 +14,7 @@ tags: [waxing, race-prep, volunteer]
 
 ### Parent Volunteers Needed!
 
-We need parent volunteers to help prepare skis for tomorrow's race at 1711 Korkki Rd, Duluth, MN 55804.
+We need parent volunteers to help prepare skis for the January 20th race at 1711 Korkki Rd, Duluth, MN 55804.
 
 ### What to Bring
 - Skis that need waxing (labeled with athlete's name)

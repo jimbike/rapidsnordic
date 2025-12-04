@@ -14,7 +14,7 @@ tags: [waxing, race-prep, volunteer]
 
 ### Parent Volunteers Needed!
 
-We need parent volunteers to help prepare skis for tomorrow's race at 1 Pincushion Dr, Grand Marais, MN 55604.
+We need parent volunteers to help prepare skis for the Dec 20th race at 1 Pincushion Dr, Grand Marais, MN 55604.
 
 ### What to Bring
 - Skis that need waxing (labeled with athlete's name)

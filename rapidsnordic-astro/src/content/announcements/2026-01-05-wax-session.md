@@ -14,7 +14,7 @@ tags: [waxing, race-prep, volunteer]
 
 ### Parent Volunteers Needed!
 
-We need parent volunteers to help prepare skis for tomorrow's race at 1106 Olympic Dr, Cloquet, MN 55720.
+We need parent volunteers to help prepare skis for the January 6th race at 1106 Olympic Dr, Cloquet, MN 55720.
 
 ### What to Bring
 - Skis that need waxing (labeled with athlete's name)
