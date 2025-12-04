@@ -24,7 +24,7 @@ Exact course and race distances are not available yet.
 Junior High will complete a shorter course. Track available for classic skiers.
 Freestyle, Interval Start, 2 racers every 30 seconds.
 
-- **Running race clock starts at 11:00am
+**- Running race clock starts at 11:00am
 
 - 11:00 - Girls Varsity 
 - 11:30 - Boys Varsity 
