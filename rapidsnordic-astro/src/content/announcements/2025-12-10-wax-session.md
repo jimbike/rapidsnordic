@@ -33,7 +33,7 @@ We need parent volunteers to help prepare skis for tomorrow's race at 8551 Grand
 If you can't attend the wax session, you can drop off skis by 4:30 PM and pick them up by 7:30 PM.
 
 ### Questions?
-Contact Coach at coach@rapidsnordic.com
+Contact Coach at james.bujold@gmail.com
 
 ---
 *Thank you to all our parent volunteers who help make race day successful!*
