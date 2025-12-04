@@ -14,7 +14,7 @@ tags: [waxing, race-prep, volunteer]
 
 ### Parent Volunteers Needed!
 
-We need parent volunteers to help prepare skis for tomorrow's race at 4348 Rice Lake Rd, Duluth, MN 55811.
+We need parent volunteers to help prepare skis for the January 29th race at 4348 Rice Lake Rd, Duluth, MN 55811.
 
 ### What to Bring
 - Skis that need waxing (labeled with athlete's name)

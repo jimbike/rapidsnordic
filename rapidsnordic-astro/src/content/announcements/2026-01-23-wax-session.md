@@ -14,7 +14,7 @@ tags: [waxing, race-prep, volunteer]
 
 ### Parent Volunteers Needed!
 
-We need parent volunteers to help prepare skis for tomorrow's race at 1258 Hidden Valley Rd, Ely, MN 55731.
+We need parent volunteers to help prepare skis for the January 24th race at 1258 Hidden Valley Rd, Ely, MN 55731.
 
 ### What to Bring
 - Skis that need waxing (labeled with athlete's name)

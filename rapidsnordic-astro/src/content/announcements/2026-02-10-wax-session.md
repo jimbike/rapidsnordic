@@ -14,7 +14,7 @@ tags: [waxing, race-prep, volunteer]
 
 ### Parent Volunteers Needed!
 
-We need parent volunteers to help prepare skis for tomorrow's race at 6329 Wynne Creek Dr, Biwabik, MN 55708.
+We need parent volunteers to help prepare skis for the February 11th race at 6329 Wynne Creek Dr, Biwabik, MN 55708.
 
 ### What to Bring
 - Skis that need waxing (labeled with athlete's name)
