@@ -5,11 +5,11 @@ location: Duluth
 venue: Grand Avenue Nordic Center
 startTime: 11:00 AM
 format: Skate
-resultsLink: ""
+resultsLink: https://www.mtecresults.com/
 address: 8551 Grand Ave, Duluth, MN 55808
 busInfo:
-  departTime: "7:00 AM from GRHS"
-  returnTime: "4:00 PM"
+  departTime: 7:00 AM from GRHS
+  returnTime: 4:00 PM
 description: Season opening race featuring skate technique competition at Grand Avenue Nordic Center.
 teamGoals:
   - Focus on technique fundamentals
@@ -18,8 +18,20 @@ teamGoals:
 ---
 
 ## Race Details
+**
+The VR / JV races will utilize the same course. 
+Exact course and race distances are not available yet.
+Junior High will complete a shorter course. Track available for classic skiers.
+Freestyle, Interval Start, 2 racers every 30 seconds.
+**
+**Running race clock starts at 11:00am
 
-The Proctor Invite marks our first race of the season. This will be a skate technique race at Grand Avenue Nordic Center.
+11:00 - Girls Varsity 
+11:30 - Boys Varsity 
+12:00 - Girls JV 
+12:30 - Boys JV 
+1:00   - Girls JH 
+1:30   - Boys JH
 
 ### Bus Schedule
 - **Departure:** 7:00 AM from GRHS Parking Lot
