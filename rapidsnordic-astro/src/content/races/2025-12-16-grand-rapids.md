@@ -15,7 +15,14 @@ teamGoals:
 
 ## Race Details
 
-Racing on our home trails at Mt Itasca! This classic technique race gives us the opportunity to showcase our training on familiar terrain.
+Interval Start - 2 every 30 seconds 
+
+Distances are subject to change based on snow conditions 
+
+
+V And JV - 5k   (2 or 4 loops depending on conditions)
+JV -  5K  
+C team 3K
 
 ### Bus Schedule
 - **No bus for home race** - Meet directly at venue
