@@ -19,11 +19,8 @@ Interval Start - 2 every 30 seconds
 
 Distances are subject to change based on snow conditions 
 
-
-V And JV - 5k   (2 or 4 loops depending on conditions)
-JV -  5K  
-C team 3K
-
+V And JV - 5k   (2 or 4 laps depending on conditions)
+C team  -  3K   (2 laps)
 ### Bus Schedule
 - **No bus for home race** - Meet directly at venue
 
