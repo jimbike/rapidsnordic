@@ -5,7 +5,7 @@ location: Duluth
 venue: Grand Avenue Nordic Center
 startTime: 11:00 AM
 format: Skate
-resultsLink: https://www.mtecresults.com/
+resultsLink: https://www.mtecresults.com/event/show/6099/2025_Proctor_Invite
 address: 8551 Grand Ave, Duluth, MN 55808
 busInfo:
   departTime: 7:00 AM from GRHS
@@ -60,4 +60,4 @@ Spectators are welcome! The best viewing locations are at the start/finish area 
 Team meeting immediately following the last finisher. Awards ceremony to follow.
 
 ### Results
-- **Live Results:** [Link will be posted when available]
+- **Live Results:** [https://www.mtecresults.com/event/show/6099/2025_Proctor_Invite]
