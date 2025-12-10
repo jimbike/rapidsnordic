@@ -43,6 +43,27 @@ Freestyle, Interval Start, 2 racers every 30 seconds.
 - **Warm-up:** 10:30 AM
 - **Race Start:** 11:00 AM
 
+### Racing Start Times
+|First|Last|Bib Number|Start Time|
+|---|---|---|---|
+|Issac|Daneilson|54|11:31:30|
+|Bennet|Williams|61|11:33:00|
+|Finn|Neuman|74|11:36:30|
+|Ian|Brekke|81|11:38:00|
+|Mathew|Johnson|87|11:39:30|
+|Noelle|Youngren|114|12:01:30|
+|Khloe|Hammerlund|121|12:03:00|
+|Olin|Bujold|197|12:39:30|
+|James|Downing|200|12:40:30|
+|Austin|Pellinen|204|12:41:30|
+|Zoe|Malmquist|240|13:05:30|
+|Gavin|Christensen|328|13:41:00|
+|Neil|Imholte|329|13:41:30|
+|Leo|Lick|331|13:42:00|
+|Silas|Gunderson|332|13:42:00|
+|Mason|Sgarlata|333|13:42:30|
+|Harald|Verdonck|334|13:42:30|
+
 ### What to Bring
 - Skate skis & Poles (waxed at Dec 10 wax session)
 - Racing suit or team uniform
