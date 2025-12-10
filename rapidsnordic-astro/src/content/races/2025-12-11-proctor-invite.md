@@ -30,8 +30,8 @@ Freestyle, Interval Start, 2 racers every 30 seconds.
 - 11:30 - Boys Varsity 
 - 12:00 - Girls JV 
 - 12:30 - Boys JV 
-- 1:00   - Girls JH 
-- 1:30   - Boys JH
+- 1:00   - Girls C Team
+- 1:30   - Boys C Team
 
 ### Bus Schedule
 - **Departure:** 7:00 AM from GRHS Parking Lot
