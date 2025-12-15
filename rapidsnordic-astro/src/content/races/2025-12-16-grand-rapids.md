@@ -1,16 +1,16 @@
 ---
-title: "Grand Rapids Race"
+title: Grand Rapids Race
 date: 2025-12-16
-location: "Mt Itasca"
-venue: "Mt Itasca Ski Area"
-startTime: "TBD"
-format: "Classic"
-resultsLink: ""
-description: "Classic technique race at our home venue, Mt Itasca."
+location: Mt Itasca
+venue: Mt Itasca Ski Area
+startTime: 11:00 AM
+format: Classic
+resultsLink: https://www.duluthtimingandevents.com/results
+description: Classic technique race at our home venue, Mt Itasca.
 teamGoals:
-  - "Execute classic technique fundamentals"
-  - "Strong kick and glide rhythm"
-  - "Home course advantage"
+  - Execute classic technique fundamentals
+  - Strong kick and glide rhythm
+  - Home course advantage
 ---
 
 ## Race Details
@@ -73,4 +73,4 @@ As the host team, we need parent volunteers for:
 Excellent viewing throughout the Mt Itasca trail system. The stadium area provides the best vantage point for starts and finishes.
 
 ### Results
-- **Live Results:** [Link will be posted when available]
+- **Live Results:** [https://www.duluthtimingandevents.com/results]
