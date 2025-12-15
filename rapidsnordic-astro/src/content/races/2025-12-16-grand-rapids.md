@@ -29,6 +29,8 @@ C team  -  3K   (2 laps)
 - **Meet Location:** Mt Itasca main chalet
 
 ### Racing Start Times
+https://www.duluthtimingandevents.com/grand-rapids-invite-start-lists
+
 | First   | Last        | Bib Number | Start Time |
 | ------- | ----------- | ---------- | ---------- |
 | Issac   | Daneilson   | 5          | 11:01:30   |
