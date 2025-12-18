@@ -1,9 +1,9 @@
 ---
-title: Cook County Invite
+title: Cook County Invite (Cancelled due to rain)
 date: 2025-12-20
 location: Grand Marais
 venue: Pincushion Mountain Trails
-startTime: 11:00 AM
+startTime:
 format: Classic and Classic 4-person mixed gender relay
 resultsLink: ""
 address: 1 Pincushion Dr, Grand Marais, MN 55604
