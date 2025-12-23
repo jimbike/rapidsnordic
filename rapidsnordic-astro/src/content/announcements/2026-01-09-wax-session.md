@@ -22,12 +22,10 @@ We need parent volunteers to help prepare skis for the January 10th race at 6329
 - Helping hands!
 
 ### Wax Plan
-- **Race Type:** Skate
+- **Race Type:** Skate and Classic depending on Skier
 - **Expected Conditions:** Will be determined based on weather forecast
 - **Wax Selection:** Will be announced morning of wax session
 
-### Drop-Off Option
-If you can't attend the wax session, you can drop off skis by 4:30 PM and pick them up by 7:30 PM.
 
 ### Questions?
 Contact Coach at james.bujold@gmail.com
