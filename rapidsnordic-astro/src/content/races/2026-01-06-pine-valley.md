@@ -7,7 +7,9 @@ startTime: 4:00 PM
 format: Skate
 resultsLink: https://www.mtecresults.com/event/show/6114/2026_Cloquet_Invite
 address: 1106 Olympic Dr, Cloquet, MN 55720
-busInfo: '{"departTime":"12:30 pm from GRHS","returnTime":"9:00 PM"}'
+busInfo:
+  departTime: "12:30 pm from GRHS"
+  returnTime: "9:00 PM"
 description: Skate technique race at Pine Valley Nordic Center.
 teamGoals:
   - Strong V2 technique on climbs

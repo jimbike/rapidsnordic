@@ -16,7 +16,7 @@ const race = defineCollection({
     location: z.string(),
     venue: z.string(),
     startTime: z.string(),
-    format: z.enum(['Skate', 'Classic', 'Pursuit', 'Classic Sprint', 'Skate Sprint']),
+    format: z.enum(['Skate', 'Classic', 'Pursuit', 'Classic Sprint', 'Skate Sprint', 'Skate and Classic']),
     resultsLink: z.string().optional(),
     registrationLink: z.string().optional(),
     description: z.string().optional(),
