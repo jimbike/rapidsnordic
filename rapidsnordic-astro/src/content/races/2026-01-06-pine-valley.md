@@ -1,20 +1,20 @@
 ---
-title: "Pine Valley Race"
+title: Pine Valley Race
 date: 2026-01-06
-location: "Cloquet"
-venue: "Pine Valley Nordic Center"
-startTime: "TBD"
-format: "Skate"
-resultsLink: ""
-address: "1106 Olympic Dr, Cloquet, MN 55720"
+location: Cloquet
+venue: Pine Valley Nordic Center
+startTime: 4:00 PM
+format: Skate
+resultsLink: https://www.mtecresults.com/event/show/6114/2026_Cloquet_Invite
+address: 1106 Olympic Dr, Cloquet, MN 55720
 busInfo:
-  departTime: "TBD from GRHS"
-  returnTime: "TBD"
-description: "Skate technique race at Pine Valley Nordic Center."
+  departTime: TBD from GRHS
+  returnTime: TBD
+description: Skate technique race at Pine Valley Nordic Center.
 teamGoals:
-  - "Strong V2 technique on climbs"
-  - "Efficient transitions"
-  - "Push personal best times"
+  - Strong V2 technique on climbs
+  - Efficient transitions
+  - Push personal best times
 ---
 
 ## Race Details
@@ -22,11 +22,11 @@ teamGoals:
 Racing at Pine Valley Nordic Center with skate technique format.
 
 ### Bus Schedule
-- **Departure:** TBD from GRHS Parking Lot
-- **Return:** TBD to GRHS
+- **Departure:** 12:30 from GRHS Parking Lot
+- **Return:** 9pm...? to GRHS
 
 ### Schedule
-- **Race Time:** To be announced
+- **Race Time:** 4pm
 - **Location:** Pine Valley Nordic Center
 
 ### What to Bring
