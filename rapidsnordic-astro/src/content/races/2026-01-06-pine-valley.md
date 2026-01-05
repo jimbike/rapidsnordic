@@ -26,6 +26,8 @@ Racing at Pine Valley Nordic Center with skate technique format.
 - **Return:** 9pm...? to GRHS
 
 ### Schedule
+- Bib Pickup in Chalet at 4:00pm
+- Coaches meeting: 4:30 at the timing shed area
 - **Race Time:** 5pm
 - **Location:** Pine Valley Nordic Center
 
