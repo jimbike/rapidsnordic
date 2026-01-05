@@ -8,8 +8,8 @@ format: Skate
 resultsLink: https://www.mtecresults.com/event/show/6114/2026_Cloquet_Invite
 address: 1106 Olympic Dr, Cloquet, MN 55720
 busInfo:
-  departTime: "12:30 pm from GRHS"
-  returnTime: "9:00 PM"
+  departTime: 12:30 pm from GRHS
+  returnTime: 9:00 PM
 description: Skate technique race at Pine Valley Nordic Center.
 teamGoals:
   - Strong V2 technique on climbs
@@ -26,8 +26,16 @@ Racing at Pine Valley Nordic Center with skate technique format.
 - **Return:** 9pm...? to GRHS
 
 ### Schedule
-- **Race Time:** 4pm
+- **Race Time:** 5pm
 - **Location:** Pine Valley Nordic Center
+
+### Race Distances & Approximate Schedule:
+- 5:00 - Girls JH 2.5K freestyle - Mass Start
+- 5:10 - Boys JH 2.5K freestyle - Mass Start
+- 5:30- Girls Varsity 5K freestyle lap race (2 x 2.5K)
+- 6:00- Boys Varsity 5K freestyle lap race (2 x 2.5K)
+- 6:30 - Girls Jr. Varsity 5K freestyle lap race (2 x 2.5K)
+- 7:00- Boys Jr. Varsity 5K freestyle lap race (2 x 2.5K)
 
 ### What to Bring
 - Skate skis (waxed at Jan 5 wax session)
