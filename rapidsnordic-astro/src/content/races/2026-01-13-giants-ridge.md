@@ -8,8 +8,8 @@ format: "Skate"
 resultsLink: ""
 address: "6329 Wynne Creek Dr, Biwabik, MN 55708"
 busInfo:
-  departTime: "TBD from GRHS"
-  returnTime: "TBD"
+  departTime: "10:30 AM from GRHS"
+  returnTime: "7:00 PM"
 description: "Skate technique race at Giants Ridge."
 teamGoals:
   - "Build on Mesabi East performance"

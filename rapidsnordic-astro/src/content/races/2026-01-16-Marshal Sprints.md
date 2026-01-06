@@ -3,13 +3,13 @@ title: Marshal Sprints - Grand Ave
 date: 2026-01-16
 location: Duluth
 venue: Grand Avenue Nordic Center
-startTime: TBD
+startTime: 10:00 AM
 format: Classic
 resultsLink: ""
 address: 8551 Grand Ave, Duluth, MN 55808
 busInfo:
-  departTime: TBD from GRHS
-  returnTime: TBD
+  departTime: 6:30 AM from GRHS
+  returnTime: 4:00 PM
 description: Classic technique - Sprints
 teamGoals:
   - Strong classic technique execution
@@ -22,8 +22,8 @@ teamGoals:
 Marshal Sprints at Grand Ave
 
 ### Bus Schedule
-- **Departure:** TBD from GRHS Parking Lot
-- **Return:** TBD to GRHS
+- **Departure:** 6:30 AM from GRHS Parking Lot
+- **Return:** 4:00 PM to GRHS
 
 ### Schedule
 - **Race Time:** To be announced
