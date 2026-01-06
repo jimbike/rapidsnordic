@@ -22,11 +22,11 @@ teamGoals:
 The Section 7 Meet is our championship qualifying race for the State meet. This is the culmination of our season's training and preparation.
 
 ### Bus Schedule
-- **Departure:** 7:30 AM from GRHS Parking Lot
+- **Departure:** 6:30 AM from GRHS Parking Lot
 - **Return:** Approximately 5:00 PM to GRHS
 
 ### Schedule
-- **Arrival Time:** 9:00 AM
+- **Arrival Time:** 8:00 AM
 - **Race Start:** 10:00 AM
 - **Format:** Classic Sprint and Pursuit
 

@@ -22,8 +22,8 @@ teamGoals:
 The Two Harbors Invite takes us to the scenic Korkki Nordic Center for a classic technique race along the North Shore.
 
 ### Bus Schedule
-- **Departure:** 8:30 AM from GRHS Parking Lot
-- **Return:** Approximately 3:30 PM to GRHS
+- **Departure:** 7:00 AM from GRHS Parking Lot
+- **Return:** Approximately 4:30 PM to GRHS
 
 ### Schedule
 - **Arrival Time:** 10:00 AM

@@ -22,7 +22,7 @@ teamGoals:
 The Duluth East Invite/LSC features exciting pursuit format racing at Snowflake Nordic Center.
 
 ### Bus Schedule
-- **Departure:** 8:30 AM from GRHS Parking Lot
+- **Departure:** 7:30 AM from GRHS Parking Lot
 - **Return:** Approximately 4:00 PM to GRHS
 
 ### Schedule

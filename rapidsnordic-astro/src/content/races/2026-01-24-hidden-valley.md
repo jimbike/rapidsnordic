@@ -22,8 +22,8 @@ teamGoals:
 Competition at Hidden Valley featuring classic sprint races and pursuit format events.
 
 ### Bus Schedule
-- **Departure:** TBD from GRHS Parking Lot
-- **Return:** TBD to GRHS
+- **Departure:** 5:30 AM from GRHS Parking Lot
+- **Return:** 4:00 PM to GRHS
 
 ### Schedule
 - **Race Time:** To be announced
