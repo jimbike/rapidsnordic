@@ -7,9 +7,7 @@ startTime: 10:00 AM
 format: Skate and Classic
 resultsLink: ""
 address: 6329 Wynne Creek Dr, Biwabik, MN 55708
-busInfo:
-  departTime: "7:30 AM from GRHS"
-  returnTime: "4:00 PM"
+busInfo: "[“departTime”:”6:30 AM GRHS”]"
 description: Major invitational race at Giants Ridge featuring both skate and classic events.
 teamGoals:
   - Execute race strategy effectively
@@ -22,7 +20,7 @@ teamGoals:
 The Mesabi East Invite is one of the season's premier events, held at the excellent Giants Ridge facility. This race features both skate and classic competitions.
 
 ### Bus Schedule
-- **Departure:** 7:30 AM from GRHS Parking Lot
+- **Departure:**6:30 AM from GRHS Parking Lot
 - **Return:** Approximately 4:00 PM to GRHS
 
 ### Schedule
