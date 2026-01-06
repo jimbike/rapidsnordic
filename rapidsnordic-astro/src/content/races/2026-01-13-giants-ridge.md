@@ -22,8 +22,8 @@ teamGoals:
 Return to Giants Ridge for a skate technique race on the challenging championship trails.
 
 ### Bus Schedule
-- **Departure:** TBD from GRHS Parking Lot
-- **Return:** TBD to GRHS
+- **Departure:** 10:30 AM from GRHS Parking Lot
+- **Return:** 9:00 PM to GRHS
 
 ### Schedule
 - **Race Time:** To be announced
