@@ -26,7 +26,7 @@ The Mesabi East Invite is one of the season's premier events, held at the excell
 - **Return:** Approximately 4:30 PM to GRHS
 
 ### Schedule
-- **Arrival Time:** 9:00 AM
+- **Arrival Time:** 8:00 AM
 
 ### Start Times
 | Bib | Start Time | Seed | Name               | Team                     | Grade | Technique |
