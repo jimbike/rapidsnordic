@@ -1,5 +1,5 @@
 ---
-title: Giants Ridge Race
+title: Giants Ridge Triangular
 date: 2026-01-13
 location: Biwabik
 venue: Giants Ridge Recreation Area
