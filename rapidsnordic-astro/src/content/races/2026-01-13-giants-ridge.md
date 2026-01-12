@@ -23,7 +23,7 @@ Return to Giants Ridge for a skate technique race.   This race is small and casu
 
 ### Bus Schedule
 - **Departure:** 10:30 AM from GRHS Parking Lot
-- **Return:** 9:00 PM to GRHS
+- **Return:** 7:00 PM to GRHS
 
 ### Schedule
 - **Race Time:** 3PM start time
