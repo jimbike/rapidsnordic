@@ -19,15 +19,16 @@ teamGoals:
 
 ## Race Details
 
-Return to Giants Ridge for a skate technique race.   This race is small and casual compared to last weekends extravaganza.  
+Return to Giants Ridge for a skate technique race.   This race is small and casual compared to last weekends extravaganza.  Theres also a sprint off at the end of the race.  Racers go head to head until there's one skier left who will receive a trophy.  After all the racing is over there is a potluck!  
 
 ### Bus Schedule
 - **Departure:** 10:30 AM from GRHS Parking Lot
 - **Return:** 9:00 PM to GRHS
 
 ### Schedule
-- **Race Time:** To be announced
+- **Race Time:** 3PM start time
 - **Location:** Giants Ridge Recreation Area
+- Results are unofficial and won't be posted anywhere. 
 
 ### What to Bring
 - Skate skis (waxed at Jan 12 wax session)
@@ -38,5 +39,3 @@ Return to Giants Ridge for a skate technique race.   This race is small and casu
 ### Course Information
 Racing again at Giants Ridge allows athletes to apply lessons learned from the Mesabi East Invite to improve their performance on these trails.
 
-### Results
-- **Live Results:** [Link will be posted when available]
