@@ -1,25 +1,25 @@
 ---
-title: "Giants Ridge Race"
+title: Giants Ridge Race
 date: 2026-01-13
-location: "Biwabik"
-venue: "Giants Ridge Recreation Area"
-startTime: "TBD"
-format: "Skate"
+location: Biwabik
+venue: Giants Ridge Recreation Area
+startTime: 3:00 PM
+format: Skate
 resultsLink: ""
-address: "6329 Wynne Creek Dr, Biwabik, MN 55708"
+address: 6329 Wynne Creek Dr, Biwabik, MN 55708
 busInfo:
-  departTime: "10:30 AM from GRHS"
-  returnTime: "7:00 PM"
-description: "Skate technique race at Giants Ridge."
+  departTime: 10:30 AM from GRHS
+  returnTime: 7:00 PM
+description: Skate technique race at Giants Ridge.
 teamGoals:
-  - "Build on Mesabi East performance"
-  - "Focus on pacing strategy"
-  - "Prepare for upcoming races"
+  - Build on Mesabi East performance
+  - Focus on pacing strategy
+  - Prepare for upcoming races
 ---
 
 ## Race Details
 
-Return to Giants Ridge for a skate technique race on the challenging championship trails.
+Return to Giants Ridge for a skate technique race.   This race is small and casual compared to last weekends extravaganza.  
 
 ### Bus Schedule
 - **Departure:** 10:30 AM from GRHS Parking Lot
