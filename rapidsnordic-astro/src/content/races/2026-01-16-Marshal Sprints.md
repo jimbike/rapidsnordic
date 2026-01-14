@@ -1,5 +1,5 @@
 ---
-title: Marshal Sprints - Grand Ave
+title: Marshal Sprints - Grand Ave  (Grand Rapids Will Not Attend)
 date: 2026-01-16
 location: Duluth
 venue: Grand Avenue Nordic Center
@@ -20,10 +20,10 @@ teamGoals:
 ## Race Details
 
 Marshal Sprints at Grand Ave
+Grand Rapids will not be attending this race.  We have many skiers who will be racing over the weekend and a handful who can't attend for other reasons.   We'll look forward to racing next week.
 
 ### Bus Schedule
-- **Departure:** 6:30 AM from GRHS Parking Lot
-- **Return:** 4:00 PM to GRHS
+- Cancelled
 
 ### Schedule
 - **Race Time:** To be announced
