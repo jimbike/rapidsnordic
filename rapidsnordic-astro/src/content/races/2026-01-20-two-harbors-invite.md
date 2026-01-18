@@ -20,14 +20,24 @@ teamGoals:
 ## Race Details
 
 The Two Harbors Invite takes us to the scenic Korkki Nordic Center for a classic technique race along the North Shore.
-
 ### Bus Schedule
 - **Departure:** 7:00 AM from GRHS Parking Lot
 - **Return:** Approximately 4:30 PM to GRHS
 
+## Distances: 
+- Varsity Boys/Girls 6k
+- JV Boys/Girls 6k
+- C Team Boys/Girls 4k
+
 ### Schedule
 - **Arrival Time:** 10:00 AM
 - **Race Start:** 11:00 AM
+- 11am - Boys Varsity
+- 11:30am - Girls Varsity
+- 12 Noon - Boys JV
+- 12:30pm - Girls JV
+- 1pm - Boys C Team
+- 1:30pm - Girls C Team
 - **Location:** Korkki Nordic Center
 
 ### What to Bring
