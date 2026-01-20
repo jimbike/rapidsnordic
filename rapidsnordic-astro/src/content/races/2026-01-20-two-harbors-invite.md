@@ -1,20 +1,20 @@
 ---
-title: "Two Harbors Invite"
+title: Two Harbors Invite
 date: 2026-01-20
-location: "Duluth"
-venue: "Korkki Nordic Center"
-startTime: "11:00 AM"
-format: "Classic"
-resultsLink: ""
-address: "1711 Korkki Rd, Duluth, MN 55804"
+location: Duluth
+venue: Korkki Nordic Center
+startTime: 11:00 AM
+format: Classic
+resultsLink: https://www.mtecresults.com/event/show/6133/2026_Two_Harbors_Invite
+address: 1711 Korkki Rd, Duluth, MN 55804
 busInfo:
-  departTime: "7:00 AM from GRHS"
-  returnTime: "4:30 PM"
-description: "Classic technique invitational race at Korkki Nordic Center."
+  departTime: 7:00 AM from GRHS
+  returnTime: 4:30 PM
+description: Classic technique invitational race at Korkki Nordic Center.
 teamGoals:
-  - "Execute strong race tactics"
-  - "Maintain form throughout race"
-  - "Support teammates to strong finishes"
+  - Execute strong race tactics
+  - Maintain form throughout race
+  - Support teammates to strong finishes
 ---
 
 ## Race Details
