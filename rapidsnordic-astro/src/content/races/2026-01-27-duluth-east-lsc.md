@@ -10,7 +10,7 @@ address: 4348 Rice Lake Rd, Duluth, MN 55811
 busInfo:
   departTime: 7:30 AM from GRHS
   returnTime: 4:00 PM
-description: Pursuit format race at Snowflake Nordic Center hosted by Duluth East and Lake Superior College.
+description: Pursuit format race at Snowflake Nordic Center hosted by Duluth East
 teamGoals:
   - Execute pursuit strategy
   - Strong performances in both techniques
@@ -38,13 +38,10 @@ The Duluth East Invite/LSC features exciting pursuit format racing at Snowflake 
 - Quick-change bag for pursuit
 
 ### Race Format
-- **Part 1:** Classic technique
-- **Transition:** Quick change to skate skis
-- **Part 2:** Skate technique
-- **Results:** Combined time determines placement
+- Pursuit
 
 ### Course Information
-Snowflake Nordic Center provides excellent trails for pursuit racing with a well-organized transition zone.
+Snowflake Nordic Center provides excellent trails for pursuit racing 
 
 ### Results
 - **Live Results:** [Link will be posted when available]
