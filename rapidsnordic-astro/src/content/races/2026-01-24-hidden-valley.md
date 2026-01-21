@@ -1,20 +1,20 @@
 ---
-title: "Hidden Valley Race"
-date: 2026-01-24
-location: "Ely"
-venue: "Hidden Valley Recreation Area"
-startTime: "TBD"
-format: "Classic Sprint"
+title: Hidden Valley Race (rescheduled Friday 30th)
+date: 2026-01-30
+location: Ely
+venue: Hidden Valley Recreation Area
+startTime: 10:00 AM
+format: Pursuit
 resultsLink: ""
-address: "1258 Hidden Valley Rd, Ely, MN 55731"
+address: 1258 Hidden Valley Rd, Ely, MN 55731
 busInfo:
-  departTime: "5:30 AM from GRHS"
-  returnTime: "4:00 PM"
-description: "Classic sprint and pursuit format races at Hidden Valley."
+  departTime: 5:30 AM from GRHS
+  returnTime: 4:00 PM
+description: Classic sprint and pursuit format races at Hidden Valley.
 teamGoals:
-  - "Strong sprint qualifying times"
-  - "Strategic pursuit racing"
-  - "Peak performance preparation"
+  - Strong sprint qualifying times
+  - Strategic pursuit racing
+  - Peak performance preparation
 ---
 
 ## Race Details
@@ -26,7 +26,7 @@ Competition at Hidden Valley featuring classic sprint races and pursuit format e
 - **Return:** 4:00 PM to GRHS
 
 ### Schedule
-- **Race Time:** To be announced
+- **Race Time:** 10:00 AM
 - **Format:** Classic Sprint / Pursuit
 
 ### What to Bring
