@@ -1,20 +1,20 @@
 ---
-title: "Duluth East Invite / LSC"
-date: 2026-01-29
-location: "Duluth"
-venue: "Snowflake Nordic Center"
-startTime: "11:00 AM"
-format: "Pursuit"
+title: Duluth East Invite / LSC  (rescheduled Tue 27th)
+date: 2026-01-27
+location: Duluth
+venue: Snowflake Nordic Center
+startTime: 11:00 AM
+format: Pursuit
 resultsLink: ""
-address: "4348 Rice Lake Rd, Duluth, MN 55811"
+address: 4348 Rice Lake Rd, Duluth, MN 55811
 busInfo:
-  departTime: "7:30 AM from GRHS"
-  returnTime: "4:00 PM"
-description: "Pursuit format race at Snowflake Nordic Center hosted by Duluth East and Lake Superior College."
+  departTime: 7:30 AM from GRHS
+  returnTime: 4:00 PM
+description: Pursuit format race at Snowflake Nordic Center hosted by Duluth East and Lake Superior College.
 teamGoals:
-  - "Execute pursuit strategy"
-  - "Strong performances in both techniques"
-  - "Prepare for Section meet"
+  - Execute pursuit strategy
+  - Strong performances in both techniques
+  - Prepare for Section meet
 ---
 
 ## Race Details

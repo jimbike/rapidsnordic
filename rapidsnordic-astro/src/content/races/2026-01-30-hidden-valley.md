@@ -1,5 +1,5 @@
 ---
-title: Hidden Valley Race (rescheduled Friday 30th)
+title: Hidden Valley Pursuit (rescheduled Friday 30th)
 date: 2026-01-30
 location: Ely
 venue: Hidden Valley Recreation Area
