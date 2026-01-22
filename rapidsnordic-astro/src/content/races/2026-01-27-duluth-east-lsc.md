@@ -26,9 +26,20 @@ The Duluth East Invite/LSC features exciting pursuit format racing at Snowflake 
 - **Return:** Approximately 4:00 PM to GRHS
 
 ### Schedule
-- **Arrival Time:** 10:00 AM
-- **Race Start:** 11:00 AM
-- **Format:** Pursuit (Classic followed by Skate)
+- **Arrival Time:** 9:00 AM
+
+| Time     | Individual Races                         | Start Details |
+| -------- | ---------------------------------------- | ------------- |
+| 11:00 AM | Boy's Varsity Freestyle 5K               | 1 every 15s   |
+|          | Girl's Varsity Freestyle 5K              | 1 every 15s   |
+|          | Boy's Jr. Varsity Freestyle 5K           | 1 every 15s   |
+|          | Girl's Jr. Varsity Freestyle 5K          | 1 every 15s   |
+|          | Break                                    |               |
+|          | Boy's C Team Freestyle 3K                | 1 every 15s   |
+|          | Girl's C Team Freestyle 3K               | 1 every 15s   |
+| 3:00 PM  | Boy's Varsity 5K Classic Pursuit Starts  |               |
+| 3:45 PM  | Girl's Varsity 5K Classic Pursuit Starts |               |
+
 
 ### What to Bring
 - Both Classic and Skate skis (waxed at Jan 28 wax session)
