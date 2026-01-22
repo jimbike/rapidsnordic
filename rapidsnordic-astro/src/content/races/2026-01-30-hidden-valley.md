@@ -26,9 +26,18 @@ Competition at Hidden Valley featuring classic sprint races and pursuit format e
 - **Return:** 4:00 PM to GRHS
 
 ### Schedule
-- **Race Time:** 10:00 AM
-- **Format:** Classic Sprint / Pursuit
-
+| Time | Individual Races | Start Details |
+|------|------------------|---------------|
+| 9:30 AM | Coaches Meeting | |
+| 10:00 AM | Varsity Girls Skate | 2 every 30s |
+| 10:30 AM | Varsity Boys Skate | 2 every 30s |
+| 11:00 AM | JV Girls Skate | 2 every 30s |
+| 11:30 AM | JV Boys Skate | 2 every 30s |
+| 12:00 PM | C Team Girls Classic | 2 every 30s |
+| 12:30 PM | C Team Boys Classic | 2 every 30s |
+| 1:15 PM | Girls Varsity Pursuit Classic | 3 start lanes |
+| 1:45 PM | Boys Varsity Pursuit Classic | 3 start lanes |
+| | Team Dance Off | |
 ### What to Bring
 - Classic skis (waxed at Jan 23 wax session)
 - Racing suit or team uniform
