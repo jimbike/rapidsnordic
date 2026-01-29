@@ -5,7 +5,7 @@ location: Duluth
 venue: Snowflake Nordic Center
 startTime: 11:00 AM
 format: Pursuit
-resultsLink: ""
+resultsLink: https://www.mtecresults.com/event/show/6146/2026_Duluth_East_Pursuit_Invite
 address: 4348 Rice Lake Rd, Duluth, MN 55811
 busInfo:
   departTime: 7:30 AM from GRHS

@@ -8,8 +8,8 @@ format: Pursuit
 resultsLink: ""
 address: 1258 Hidden Valley Rd, Ely, MN 55731
 busInfo:
-  departTime: 5:30 AM from GRHS
-  returnTime: 4:00 PM
+  departTime: 7:00 AM from GRHS
+  returnTime: 8:00 PM
 description: Classic sprint and pursuit format races at Hidden Valley.
 teamGoals:
   - Strong sprint qualifying times
@@ -22,10 +22,14 @@ teamGoals:
 Competition at Hidden Valley featuring classic sprint races and pursuit format events.
 
 ### Bus Schedule
-- **Departure:** 5:30 AM from GRHS Parking Lot
+- **Departure:** 7:00 AM from GRHS Parking Lot
 - **Return:** 4:00 PM to GRHS
 
 ### Schedule
+
+### Start List
+https://static1.squarespace.com/static/57b8bfcaf7e0ab151e4c9202/t/697b9e09c3fc7a23acdbbae1/1769709065426/Grand+Rapids.pdf
+
 | Time     | Individual Races              | Start Details |
 | -------- | ----------------------------- | ------------- |
 | 10:30 AM | Coaches Meeting               |               |
