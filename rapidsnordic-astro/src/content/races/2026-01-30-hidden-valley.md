@@ -28,7 +28,7 @@ Competition at Hidden Valley featuring classic sprint races and pursuit format e
 ### Schedule
 
 ### Start List
-https://static1.squarespace.com/static/57b8bfcaf7e0ab151e4c9202/t/697b9e09c3fc7a23acdbbae1/1769709065426/Grand+Rapids.pdf
+- https://static1.squarespace.com/static/57b8bfcaf7e0ab151e4c9202/t/697b9e09c3fc7a23acdbbae1/1769709065426/Grand+Rapids.pdf
 
 | Time     | Individual Races              | Start Details |
 | -------- | ----------------------------- | ------------- |
