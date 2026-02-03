@@ -44,21 +44,21 @@ The Section 7 Meet is our championship qualifying race for the State meet. This 
 - 3:10 pm Boys 5K Classic Pursuit Race 
 - 3:45 pm Girls 5K Classic Pursuit Race
 
+## StartList
+- https://www.duluthtimingandevents.com/ely-invitational-pursuit-meet
 ### What to Bring
 - Both Classic and Skate skis (waxed at Feb 3 wax session)
 - Racing suit or team uniform
 - Warm-ups and extra layers
 - Water, snacks, and lunch
 
-
 ### Race Format
 - **Morning:** Freestyle 5k
 - **Mid-day:** Classic Sprint Relays
 - Afternoon: Classic Pursuit
-- **Qualification:** Top finishers advance to State
 
 ### Course Information
-Giants Ridge championship courses will be in prime condition for this important meet. Athletes should draw on their experience from earlier races here.
+Giants Ridge championship courses will be in prime condition for this important meet. This course will be identical to the state meet. 
 
 
 
