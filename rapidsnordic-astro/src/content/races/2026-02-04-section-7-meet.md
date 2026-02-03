@@ -45,7 +45,10 @@ The Section 7 Meet is our championship qualifying race for the State meet. This 
 - 3:45 pm Girls 5K Classic Pursuit Race
 
 ## StartList
-- chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://static1.squarespace.com/static/57b8bfcaf7e0ab151e4c9202/t/69822fd0b4fa7a0a26c26ba6/1770139600048/Grand+Rapids.pdf
+- general 
+	- https://www.duluthtimingandevents.com/ely-invitational-pursuit-meet
+- GR
+	- [chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://static1.squarespace.com/static/57b8bfcaf7e0ab151e4c9202/t/69822fd0b4fa7a0a26c26ba6/1770139600048/Grand+Rapids.pdf](https://static1.squarespace.com/static/57b8bfcaf7e0ab151e4c9202/t/69822fd0b4fa7a0a26c26ba6/1770139600048/Grand+Rapids.pdf)
 
 ## Relay exchange rule
 - **Article 343.13 - Relay exchange:**
@@ -64,8 +67,6 @@ The Section 7 Meet is our championship qualifying race for the State meet. This 
 
 ### Course Information
 Giants Ridge championship courses will be in prime condition for this important meet. This course will be identical to the state meet. 
-
-
 
 ### Results
 - **Live Results:** [Link will be posted when available]
