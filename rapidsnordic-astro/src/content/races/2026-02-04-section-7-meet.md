@@ -38,7 +38,7 @@ The Section 7 Meet is our championship qualifying race for the State meet. This 
 - 12:30 pm Girls Team Classic Sprint Heat A (Timed) 
 - 12:50 pm Girls Team Classic Sprint Heat B (Timed) 
 - 1:10 pm Boys Team Classic Sprint Heat A (Timed) 
-- 1:30 pm Boys Team Classic Sprint Heat B (Timed) 
+- 1:30 pm Boys Team Classic Sprint Heat B (Timed)  GR is in this heat
 - 2:00 pm Girls Team Classic Sprint Final 
 - 2:20 pm Boys Team Classic Sprint Final 
 - 3:10 pm Boys 5K Classic Pursuit Race 
@@ -46,6 +46,11 @@ The Section 7 Meet is our championship qualifying race for the State meet. This 
 
 ## StartList
 - chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://static1.squarespace.com/static/57b8bfcaf7e0ab151e4c9202/t/69822fd0b4fa7a0a26c26ba6/1770139600048/Grand+Rapids.pdf
+
+## Relay exchange rule
+- **Article 343.13 - Relay exchange:**
+- "In a team event, the exchange is achieved by the arriving competitor, with a tap of the hand on any part of the next competitor's body while both competitors are in the relay exchange zone. The next competitor may only enter the relay exchange zone when summoned. Any method of pushing the starting competitor is forbidden."
+
 ### What to Bring
 - Both Classic and Skate skis (waxed at Feb 3 wax session)
 - Racing suit or team uniform
