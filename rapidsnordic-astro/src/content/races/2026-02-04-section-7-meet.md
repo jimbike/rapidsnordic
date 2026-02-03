@@ -45,7 +45,7 @@ The Section 7 Meet is our championship qualifying race for the State meet. This 
 - 3:45 pm Girls 5K Classic Pursuit Race
 
 ## StartList
-- https://www.duluthtimingandevents.com/ely-invitational-pursuit-meet
+- chrome-extension://efaidnbmnnnibpcajpcglclefindmkaj/https://static1.squarespace.com/static/57b8bfcaf7e0ab151e4c9202/t/69822fd0b4fa7a0a26c26ba6/1770139600048/Grand+Rapids.pdf
 ### What to Bring
 - Both Classic and Skate skis (waxed at Feb 3 wax session)
 - Racing suit or team uniform
