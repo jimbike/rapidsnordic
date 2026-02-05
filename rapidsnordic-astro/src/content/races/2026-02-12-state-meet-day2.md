@@ -1,20 +1,20 @@
 ---
-title: "MSHSL State Meet - Day 2"
+title: MSHSL State Meet - Day 2
 date: 2026-02-12
-location: "Biwabik"
-venue: "Giants Ridge Recreation Area"
-startTime: "TBD"
-format: "Classic"
+location: Biwabik
+venue: Giants Ridge Recreation Area
+startTime: TBD
+format: Pursuit
 resultsLink: ""
-address: "6329 Wynne Creek Dr, Biwabik, MN 55708"
+address: 6329 Wynne Creek Dr, Biwabik, MN 55708
 busInfo:
-  departTime: "TBD (if not staying overnight)"
-  returnTime: "TBD"
-description: "Minnesota State High School Nordic Ski Championships - Day 2 featuring Classic distance races."
+  departTime: TBD (if not staying overnight)
+  returnTime: TBD
+description: Minnesota State High School Nordic Ski Championships - Day 2 featuring Classic distance races.
 teamGoals:
-  - "Strong finish to the season"
-  - "Personal best efforts"
-  - "Celebrate team achievements"
+  - Strong finish to the season
+  - Personal best efforts
+  - Celebrate team achievements
 ---
 
 ## Race Details
@@ -22,8 +22,7 @@ teamGoals:
 Day 2 of the MSHSL State Meet features Classic technique distance races to conclude the championship.
 
 ### Bus Schedule
-- **Departure:** TBD 
-- **Return:** TBD to GRHS
+- **Departure:** No Bus
 
 ### Schedule
 - **Details:** To be announced by MSHSL
